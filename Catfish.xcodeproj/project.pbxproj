@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D0621C31831642A002350B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0621C21831642A002350B5 /* Foundation.framework */; };
+		1D0621D11831642A002350B5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0621D01831642A002350B5 /* XCTest.framework */; };
+		1D0621D21831642A002350B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0621C21831642A002350B5 /* Foundation.framework */; };
+		1D0621D41831642A002350B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0621D31831642A002350B5 /* UIKit.framework */; };
+		1D0621D71831642A002350B5 /* libCatfish.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0621BF1831642A002350B5 /* libCatfish.a */; };
+		1D0621DD1831642A002350B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D0621DB1831642A002350B5 /* InfoPlist.strings */; };
+		1D0621DF1831642A002350B5 /* CatfishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621DE1831642A002350B5 /* CatfishTests.m */; };
+		1D0621FE1831672F002350B5 /* NSDate+FormattedStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621EB1831672E002350B5 /* NSDate+FormattedStrings.m */; };
+		1D0621FF1831672F002350B5 /* NSException+Throwable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621EE1831672E002350B5 /* NSException+Throwable.m */; };
+		1D0622011831672F002350B5 /* NSString+DateComparable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621F41831672F002350B5 /* NSString+DateComparable.m */; };
+		1D0622021831672F002350B5 /* NSString+Formatted.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621F61831672F002350B5 /* NSString+Formatted.m */; };
+		1D0622031831672F002350B5 /* NSString+Localized.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621F81831672F002350B5 /* NSString+Localized.m */; };
+		1D0622041831672F002350B5 /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621FA1831672F002350B5 /* NSString+Validation.m */; };
+		1D0622051831672F002350B5 /* UIAlertView+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621FD1831672F002350B5 /* UIAlertView+Utility.m */; };
+		1D062207183167AB002350B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D062206183167AB002350B5 /* UIKit.framework */; };
+		1D06220B18317609002350B5 /* CFFoundationVersionNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D06220A18317609002350B5 /* CFFoundationVersionNumber.m */; };
+		1D0622C418317FD5002350B5 /* CFStringConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0622C318317FD5002350B5 /* CFStringConstants.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D0621D51831642A002350B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D0621B71831642A002350B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D0621BE1831642A002350B5;
+			remoteInfo = Catfish;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1D0621BD1831642A002350B5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1D0621BF1831642A002350B5 /* libCatfish.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCatfish.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0621C21831642A002350B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D0621C61831642A002350B5 /* Catfish-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Catfish-Prefix.pch"; sourceTree = "<group>"; };
+		1D0621CF1831642A002350B5 /* CatfishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatfishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0621D01831642A002350B5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1D0621D31831642A002350B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1D0621DA1831642A002350B5 /* CatfishTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CatfishTests-Info.plist"; sourceTree = "<group>"; };
+		1D0621DC1831642A002350B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1D0621DE1831642A002350B5 /* CatfishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatfishTests.m; sourceTree = "<group>"; };
+		1D0621EA1831672E002350B5 /* NSDate+FormattedStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FormattedStrings.h"; sourceTree = "<group>"; };
+		1D0621EB1831672E002350B5 /* NSDate+FormattedStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FormattedStrings.m"; sourceTree = "<group>"; };
+		1D0621ED1831672E002350B5 /* NSException+Throwable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+Throwable.h"; sourceTree = "<group>"; };
+		1D0621EE1831672E002350B5 /* NSException+Throwable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+Throwable.m"; sourceTree = "<group>"; };
+		1D0621F31831672E002350B5 /* NSString+DateComparable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DateComparable.h"; sourceTree = "<group>"; };
+		1D0621F41831672F002350B5 /* NSString+DateComparable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DateComparable.m"; sourceTree = "<group>"; };
+		1D0621F51831672F002350B5 /* NSString+Formatted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Formatted.h"; sourceTree = "<group>"; };
+		1D0621F61831672F002350B5 /* NSString+Formatted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Formatted.m"; sourceTree = "<group>"; };
+		1D0621F71831672F002350B5 /* NSString+Localized.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Localized.h"; sourceTree = "<group>"; };
+		1D0621F81831672F002350B5 /* NSString+Localized.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Localized.m"; sourceTree = "<group>"; };
+		1D0621F91831672F002350B5 /* NSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validation.h"; sourceTree = "<group>"; };
+		1D0621FA1831672F002350B5 /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
+		1D0621FC1831672F002350B5 /* UIAlertView+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Utility.h"; sourceTree = "<group>"; };
+		1D0621FD1831672F002350B5 /* UIAlertView+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Utility.m"; sourceTree = "<group>"; };
+		1D062206183167AB002350B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D06220918317609002350B5 /* CFFoundationVersionNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFFoundationVersionNumber.h; sourceTree = "<group>"; };
+		1D06220A18317609002350B5 /* CFFoundationVersionNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFFoundationVersionNumber.m; sourceTree = "<group>"; };
+		1D06220C183176F0002350B5 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		1D0622C218317FD5002350B5 /* CFStringConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStringConstants.h; sourceTree = "<group>"; };
+		1D0622C318317FD5002350B5 /* CFStringConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFStringConstants.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D0621BC1831642A002350B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D062207183167AB002350B5 /* UIKit.framework in Frameworks */,
+				1D0621C31831642A002350B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0621CC1831642A002350B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0621D71831642A002350B5 /* libCatfish.a in Frameworks */,
+				1D0621D11831642A002350B5 /* XCTest.framework in Frameworks */,
+				1D0621D41831642A002350B5 /* UIKit.framework in Frameworks */,
+				1D0621D21831642A002350B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D0621B61831642A002350B5 = {
+			isa = PBXGroup;
+			children = (
+				1D0621C41831642A002350B5 /* Catfish */,
+				1D0621D81831642A002350B5 /* CatfishTests */,
+				1D0621C11831642A002350B5 /* Frameworks */,
+				1D0621C01831642A002350B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D0621C01831642A002350B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D0621BF1831642A002350B5 /* libCatfish.a */,
+				1D0621CF1831642A002350B5 /* CatfishTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D0621C11831642A002350B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D062206183167AB002350B5 /* UIKit.framework */,
+				1D0621C21831642A002350B5 /* Foundation.framework */,
+				1D0621D01831642A002350B5 /* XCTest.framework */,
+				1D0621D31831642A002350B5 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D0621C41831642A002350B5 /* Catfish */ = {
+			isa = PBXGroup;
+			children = (
+				1D0621E81831672E002350B5 /* category */,
+				1D06220818317609002350B5 /* util */,
+				1D0622C218317FD5002350B5 /* CFStringConstants.h */,
+				1D0622C318317FD5002350B5 /* CFStringConstants.m */,
+				1D0621C51831642A002350B5 /* Supporting Files */,
+			);
+			path = Catfish;
+			sourceTree = "<group>";
+		};
+		1D0621C51831642A002350B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D0621C61831642A002350B5 /* Catfish-Prefix.pch */,
+				1D06220C183176F0002350B5 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D0621D81831642A002350B5 /* CatfishTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D0621DE1831642A002350B5 /* CatfishTests.m */,
+				1D0621D91831642A002350B5 /* Supporting Files */,
+			);
+			path = CatfishTests;
+			sourceTree = "<group>";
+		};
+		1D0621D91831642A002350B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D0621DA1831642A002350B5 /* CatfishTests-Info.plist */,
+				1D0621DB1831642A002350B5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D0621E81831672E002350B5 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				1D0621E91831672E002350B5 /* nsdate */,
+				1D0621EC1831672E002350B5 /* nsexception */,
+				1D0621F21831672E002350B5 /* nsstring */,
+				1D0621FB1831672F002350B5 /* uialertview */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		1D0621E91831672E002350B5 /* nsdate */ = {
+			isa = PBXGroup;
+			children = (
+				1D0621EA1831672E002350B5 /* NSDate+FormattedStrings.h */,
+				1D0621EB1831672E002350B5 /* NSDate+FormattedStrings.m */,
+			);
+			path = nsdate;
+			sourceTree = "<group>";
+		};
+		1D0621EC1831672E002350B5 /* nsexception */ = {
+			isa = PBXGroup;
+			children = (
+				1D0621ED1831672E002350B5 /* NSException+Throwable.h */,
+				1D0621EE1831672E002350B5 /* NSException+Throwable.m */,
+			);
+			path = nsexception;
+			sourceTree = "<group>";
+		};
+		1D0621F21831672E002350B5 /* nsstring */ = {
+			isa = PBXGroup;
+			children = (
+				1D0621F31831672E002350B5 /* NSString+DateComparable.h */,
+				1D0621F41831672F002350B5 /* NSString+DateComparable.m */,
+				1D0621F51831672F002350B5 /* NSString+Formatted.h */,
+				1D0621F61831672F002350B5 /* NSString+Formatted.m */,
+				1D0621F71831672F002350B5 /* NSString+Localized.h */,
+				1D0621F81831672F002350B5 /* NSString+Localized.m */,
+				1D0621F91831672F002350B5 /* NSString+Validation.h */,
+				1D0621FA1831672F002350B5 /* NSString+Validation.m */,
+			);
+			path = nsstring;
+			sourceTree = "<group>";
+		};
+		1D0621FB1831672F002350B5 /* uialertview */ = {
+			isa = PBXGroup;
+			children = (
+				1D0621FC1831672F002350B5 /* UIAlertView+Utility.h */,
+				1D0621FD1831672F002350B5 /* UIAlertView+Utility.m */,
+			);
+			path = uialertview;
+			sourceTree = "<group>";
+		};
+		1D06220818317609002350B5 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				1D06220918317609002350B5 /* CFFoundationVersionNumber.h */,
+				1D06220A18317609002350B5 /* CFFoundationVersionNumber.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D0621BE1831642A002350B5 /* Catfish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D0621E21831642A002350B5 /* Build configuration list for PBXNativeTarget "Catfish" */;
+			buildPhases = (
+				1D0621BB1831642A002350B5 /* Sources */,
+				1D0621BC1831642A002350B5 /* Frameworks */,
+				1D0621BD1831642A002350B5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Catfish;
+			productName = Catfish;
+			productReference = 1D0621BF1831642A002350B5 /* libCatfish.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1D0621CE1831642A002350B5 /* CatfishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D0621E51831642A002350B5 /* Build configuration list for PBXNativeTarget "CatfishTests" */;
+			buildPhases = (
+				1D0621CB1831642A002350B5 /* Sources */,
+				1D0621CC1831642A002350B5 /* Frameworks */,
+				1D0621CD1831642A002350B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D0621D61831642A002350B5 /* PBXTargetDependency */,
+			);
+			name = CatfishTests;
+			productName = CatfishTests;
+			productReference = 1D0621CF1831642A002350B5 /* CatfishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D0621B71831642A002350B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Sook;
+			};
+			buildConfigurationList = 1D0621BA1831642A002350B5 /* Build configuration list for PBXProject "Catfish" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1D0621B61831642A002350B5;
+			productRefGroup = 1D0621C01831642A002350B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D0621BE1831642A002350B5 /* Catfish */,
+				1D0621CE1831642A002350B5 /* CatfishTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D0621CD1831642A002350B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0621DD1831642A002350B5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D0621BB1831642A002350B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0622021831672F002350B5 /* NSString+Formatted.m in Sources */,
+				1D0622031831672F002350B5 /* NSString+Localized.m in Sources */,
+				1D0621FE1831672F002350B5 /* NSDate+FormattedStrings.m in Sources */,
+				1D0622C418317FD5002350B5 /* CFStringConstants.m in Sources */,
+				1D0621FF1831672F002350B5 /* NSException+Throwable.m in Sources */,
+				1D0622051831672F002350B5 /* UIAlertView+Utility.m in Sources */,
+				1D0622041831672F002350B5 /* NSString+Validation.m in Sources */,
+				1D0622011831672F002350B5 /* NSString+DateComparable.m in Sources */,
+				1D06220B18317609002350B5 /* CFFoundationVersionNumber.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D0621CB1831642A002350B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D0621DF1831642A002350B5 /* CatfishTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D0621D61831642A002350B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D0621BE1831642A002350B5 /* Catfish */;
+			targetProxy = 1D0621D51831642A002350B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D0621DB1831642A002350B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D0621DC1831642A002350B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D0621E01831642A002350B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1D0621E11831642A002350B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D0621E31831642A002350B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Catfish.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catfish/Catfish-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1D0621E41831642A002350B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/Catfish.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catfish/Catfish-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1D0621E61831642A002350B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catfish/Catfish-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CatfishTests/CatfishTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		1D0621E71831642A002350B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Catfish/Catfish-Prefix.pch";
+				INFOPLIST_FILE = "CatfishTests/CatfishTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D0621BA1831642A002350B5 /* Build configuration list for PBXProject "Catfish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0621E01831642A002350B5 /* Debug */,
+				1D0621E11831642A002350B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D0621E21831642A002350B5 /* Build configuration list for PBXNativeTarget "Catfish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0621E31831642A002350B5 /* Debug */,
+				1D0621E41831642A002350B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D0621E51831642A002350B5 /* Build configuration list for PBXNativeTarget "CatfishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D0621E61831642A002350B5 /* Debug */,
+				1D0621E71831642A002350B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D0621B71831642A002350B5 /* Project object */;
+}
