@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSDate (FormattedStrings)
+@interface NSDate (CFFormattedStrings)
 
 - (NSString *)dateWithDaySuffix;
 - (NSString *)dayWithSuffix;

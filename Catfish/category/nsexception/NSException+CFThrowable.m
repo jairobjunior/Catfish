@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Oakley. All rights reserved.
 //
 
-#import "NSException+Throwable.h"
+#import "NSException+CFThrowable.h"
 
-@implementation NSException (Throwable)
+@implementation NSException (CFThrowable)
 
 + (void)throwInternalInconsistencyExceptionMethodMustOverride
 {

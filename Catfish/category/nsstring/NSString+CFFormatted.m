@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Oakley. All rights reserved.
 //
 
-#import "NSString+Formatted.h"
+#import "NSString+CFFormatted.h"
 
-@implementation NSString (Formatted)
+@implementation NSString (CFFormatted)
 
 + (NSString*)decimalFormatterWithFloat:(double)value
 {

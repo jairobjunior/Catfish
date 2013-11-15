@@ -7,7 +7,7 @@
 //
 
 
-@interface UIAlertView (Utility)
+@interface UIAlertView (CFUtility)
 
 
 /**

@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Oakley. All rights reserved.
 //
 
-#import "NSString+Localized.h"
+#import "NSString+CFLocalized.h"
 
-@implementation NSString (Localized)
+@implementation NSString (CFLocalized)
 
 + (NSString*)getStringLocalizedWithKey:(NSString*)key
 {

@@ -6,11 +6,11 @@
 //  Copyright (c) 2013 Oakley. All rights reserved.
 //
 
-#import "NSDate+FormattedStrings.h"
+#import "NSDate+CFFormattedStrings.h"
 
 #define kSuffixDays @"|st|nd|rd|th|th|th|th|th|th|th|th|th|th|th|th|th|th|th|th|th|st|nd|rd|th|th|th|th|th|th|th|st"
 
-@implementation NSDate (FormattedStrings)
+@implementation NSDate (CFFormattedStrings)
 
 //June 13th, 2013
 - (NSString *)dateWithDaySuffix

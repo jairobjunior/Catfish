@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (Validation)
+@interface NSString (CFValidation)
 
 - (BOOL)isValidEmailFormat;
 

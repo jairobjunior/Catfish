@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Oakley. All rights reserved.
 //
 
-#import "NSString+DateComparable.h"
+#import "NSString+CFDateComparable.h"
 
-@implementation NSString (DateComparable)
+@implementation NSString (CFDateComparable)
 
 - (NSComparisonResult)compareDates:(NSString *)someDate {
     NSDateFormatter *df = [[NSDateFormatter alloc] init];

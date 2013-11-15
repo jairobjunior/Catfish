@@ -14,13 +14,13 @@
 		1D0621D71831642A002350B5 /* libCatfish.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0621BF1831642A002350B5 /* libCatfish.a */; };
 		1D0621DD1831642A002350B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D0621DB1831642A002350B5 /* InfoPlist.strings */; };
 		1D0621DF1831642A002350B5 /* CatfishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621DE1831642A002350B5 /* CatfishTests.m */; };
-		1D0621FE1831672F002350B5 /* NSDate+FormattedStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621EB1831672E002350B5 /* NSDate+FormattedStrings.m */; };
-		1D0621FF1831672F002350B5 /* NSException+Throwable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621EE1831672E002350B5 /* NSException+Throwable.m */; };
-		1D0622011831672F002350B5 /* NSString+DateComparable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621F41831672F002350B5 /* NSString+DateComparable.m */; };
-		1D0622021831672F002350B5 /* NSString+Formatted.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621F61831672F002350B5 /* NSString+Formatted.m */; };
-		1D0622031831672F002350B5 /* NSString+Localized.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621F81831672F002350B5 /* NSString+Localized.m */; };
-		1D0622041831672F002350B5 /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621FA1831672F002350B5 /* NSString+Validation.m */; };
-		1D0622051831672F002350B5 /* UIAlertView+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621FD1831672F002350B5 /* UIAlertView+Utility.m */; };
+		1D0621FE1831672F002350B5 /* NSDate+CFFormattedStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621EB1831672E002350B5 /* NSDate+CFFormattedStrings.m */; };
+		1D0621FF1831672F002350B5 /* NSException+CFThrowable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621EE1831672E002350B5 /* NSException+CFThrowable.m */; };
+		1D0622011831672F002350B5 /* NSString+CFDateComparable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621F41831672F002350B5 /* NSString+CFDateComparable.m */; };
+		1D0622021831672F002350B5 /* NSString+CFFormatted.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621F61831672F002350B5 /* NSString+CFFormatted.m */; };
+		1D0622031831672F002350B5 /* NSString+CFLocalized.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621F81831672F002350B5 /* NSString+CFLocalized.m */; };
+		1D0622041831672F002350B5 /* NSString+CFValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621FA1831672F002350B5 /* NSString+CFValidation.m */; };
+		1D0622051831672F002350B5 /* UIAlertView+CFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621FD1831672F002350B5 /* UIAlertView+CFUtility.m */; };
 		1D062207183167AB002350B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D062206183167AB002350B5 /* UIKit.framework */; };
 		1D06220B18317609002350B5 /* CFFoundationVersionNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D06220A18317609002350B5 /* CFFoundationVersionNumber.m */; };
 		1D0622C418317FD5002350B5 /* CFStringConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0622C318317FD5002350B5 /* CFStringConstants.m */; };
@@ -58,20 +58,20 @@
 		1D0621DA1831642A002350B5 /* CatfishTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CatfishTests-Info.plist"; sourceTree = "<group>"; };
 		1D0621DC1831642A002350B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1D0621DE1831642A002350B5 /* CatfishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatfishTests.m; sourceTree = "<group>"; };
-		1D0621EA1831672E002350B5 /* NSDate+FormattedStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+FormattedStrings.h"; sourceTree = "<group>"; };
-		1D0621EB1831672E002350B5 /* NSDate+FormattedStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+FormattedStrings.m"; sourceTree = "<group>"; };
-		1D0621ED1831672E002350B5 /* NSException+Throwable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+Throwable.h"; sourceTree = "<group>"; };
-		1D0621EE1831672E002350B5 /* NSException+Throwable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+Throwable.m"; sourceTree = "<group>"; };
-		1D0621F31831672E002350B5 /* NSString+DateComparable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+DateComparable.h"; sourceTree = "<group>"; };
-		1D0621F41831672F002350B5 /* NSString+DateComparable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+DateComparable.m"; sourceTree = "<group>"; };
-		1D0621F51831672F002350B5 /* NSString+Formatted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Formatted.h"; sourceTree = "<group>"; };
-		1D0621F61831672F002350B5 /* NSString+Formatted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Formatted.m"; sourceTree = "<group>"; };
-		1D0621F71831672F002350B5 /* NSString+Localized.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Localized.h"; sourceTree = "<group>"; };
-		1D0621F81831672F002350B5 /* NSString+Localized.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Localized.m"; sourceTree = "<group>"; };
-		1D0621F91831672F002350B5 /* NSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validation.h"; sourceTree = "<group>"; };
-		1D0621FA1831672F002350B5 /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
-		1D0621FC1831672F002350B5 /* UIAlertView+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Utility.h"; sourceTree = "<group>"; };
-		1D0621FD1831672F002350B5 /* UIAlertView+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Utility.m"; sourceTree = "<group>"; };
+		1D0621EA1831672E002350B5 /* NSDate+CFFormattedStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CFFormattedStrings.h"; sourceTree = "<group>"; };
+		1D0621EB1831672E002350B5 /* NSDate+CFFormattedStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CFFormattedStrings.m"; sourceTree = "<group>"; };
+		1D0621ED1831672E002350B5 /* NSException+CFThrowable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+CFThrowable.h"; sourceTree = "<group>"; };
+		1D0621EE1831672E002350B5 /* NSException+CFThrowable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+CFThrowable.m"; sourceTree = "<group>"; };
+		1D0621F31831672E002350B5 /* NSString+CFDateComparable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFDateComparable.h"; sourceTree = "<group>"; };
+		1D0621F41831672F002350B5 /* NSString+CFDateComparable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFDateComparable.m"; sourceTree = "<group>"; };
+		1D0621F51831672F002350B5 /* NSString+CFFormatted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFFormatted.h"; sourceTree = "<group>"; };
+		1D0621F61831672F002350B5 /* NSString+CFFormatted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFFormatted.m"; sourceTree = "<group>"; };
+		1D0621F71831672F002350B5 /* NSString+CFLocalized.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFLocalized.h"; sourceTree = "<group>"; };
+		1D0621F81831672F002350B5 /* NSString+CFLocalized.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFLocalized.m"; sourceTree = "<group>"; };
+		1D0621F91831672F002350B5 /* NSString+CFValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFValidation.h"; sourceTree = "<group>"; };
+		1D0621FA1831672F002350B5 /* NSString+CFValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFValidation.m"; sourceTree = "<group>"; };
+		1D0621FC1831672F002350B5 /* UIAlertView+CFUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+CFUtility.h"; sourceTree = "<group>"; };
+		1D0621FD1831672F002350B5 /* UIAlertView+CFUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+CFUtility.m"; sourceTree = "<group>"; };
 		1D062206183167AB002350B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1D06220918317609002350B5 /* CFFoundationVersionNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFFoundationVersionNumber.h; sourceTree = "<group>"; };
 		1D06220A18317609002350B5 /* CFFoundationVersionNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFFoundationVersionNumber.m; sourceTree = "<group>"; };
@@ -187,8 +187,8 @@
 		1D0621E91831672E002350B5 /* nsdate */ = {
 			isa = PBXGroup;
 			children = (
-				1D0621EA1831672E002350B5 /* NSDate+FormattedStrings.h */,
-				1D0621EB1831672E002350B5 /* NSDate+FormattedStrings.m */,
+				1D0621EA1831672E002350B5 /* NSDate+CFFormattedStrings.h */,
+				1D0621EB1831672E002350B5 /* NSDate+CFFormattedStrings.m */,
 			);
 			path = nsdate;
 			sourceTree = "<group>";
@@ -196,8 +196,8 @@
 		1D0621EC1831672E002350B5 /* nsexception */ = {
 			isa = PBXGroup;
 			children = (
-				1D0621ED1831672E002350B5 /* NSException+Throwable.h */,
-				1D0621EE1831672E002350B5 /* NSException+Throwable.m */,
+				1D0621ED1831672E002350B5 /* NSException+CFThrowable.h */,
+				1D0621EE1831672E002350B5 /* NSException+CFThrowable.m */,
 			);
 			path = nsexception;
 			sourceTree = "<group>";
@@ -205,14 +205,14 @@
 		1D0621F21831672E002350B5 /* nsstring */ = {
 			isa = PBXGroup;
 			children = (
-				1D0621F31831672E002350B5 /* NSString+DateComparable.h */,
-				1D0621F41831672F002350B5 /* NSString+DateComparable.m */,
-				1D0621F51831672F002350B5 /* NSString+Formatted.h */,
-				1D0621F61831672F002350B5 /* NSString+Formatted.m */,
-				1D0621F71831672F002350B5 /* NSString+Localized.h */,
-				1D0621F81831672F002350B5 /* NSString+Localized.m */,
-				1D0621F91831672F002350B5 /* NSString+Validation.h */,
-				1D0621FA1831672F002350B5 /* NSString+Validation.m */,
+				1D0621F31831672E002350B5 /* NSString+CFDateComparable.h */,
+				1D0621F41831672F002350B5 /* NSString+CFDateComparable.m */,
+				1D0621F51831672F002350B5 /* NSString+CFFormatted.h */,
+				1D0621F61831672F002350B5 /* NSString+CFFormatted.m */,
+				1D0621F71831672F002350B5 /* NSString+CFLocalized.h */,
+				1D0621F81831672F002350B5 /* NSString+CFLocalized.m */,
+				1D0621F91831672F002350B5 /* NSString+CFValidation.h */,
+				1D0621FA1831672F002350B5 /* NSString+CFValidation.m */,
 			);
 			path = nsstring;
 			sourceTree = "<group>";
@@ -220,8 +220,8 @@
 		1D0621FB1831672F002350B5 /* uialertview */ = {
 			isa = PBXGroup;
 			children = (
-				1D0621FC1831672F002350B5 /* UIAlertView+Utility.h */,
-				1D0621FD1831672F002350B5 /* UIAlertView+Utility.m */,
+				1D0621FC1831672F002350B5 /* UIAlertView+CFUtility.h */,
+				1D0621FD1831672F002350B5 /* UIAlertView+CFUtility.m */,
 			);
 			path = uialertview;
 			sourceTree = "<group>";
@@ -316,14 +316,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D0622021831672F002350B5 /* NSString+Formatted.m in Sources */,
-				1D0622031831672F002350B5 /* NSString+Localized.m in Sources */,
-				1D0621FE1831672F002350B5 /* NSDate+FormattedStrings.m in Sources */,
+				1D0622021831672F002350B5 /* NSString+CFFormatted.m in Sources */,
+				1D0622031831672F002350B5 /* NSString+CFLocalized.m in Sources */,
+				1D0621FE1831672F002350B5 /* NSDate+CFFormattedStrings.m in Sources */,
 				1D0622C418317FD5002350B5 /* CFStringConstants.m in Sources */,
-				1D0621FF1831672F002350B5 /* NSException+Throwable.m in Sources */,
-				1D0622051831672F002350B5 /* UIAlertView+Utility.m in Sources */,
-				1D0622041831672F002350B5 /* NSString+Validation.m in Sources */,
-				1D0622011831672F002350B5 /* NSString+DateComparable.m in Sources */,
+				1D0621FF1831672F002350B5 /* NSException+CFThrowable.m in Sources */,
+				1D0622051831672F002350B5 /* UIAlertView+CFUtility.m in Sources */,
+				1D0622041831672F002350B5 /* NSString+CFValidation.m in Sources */,
+				1D0622011831672F002350B5 /* NSString+CFDateComparable.m in Sources */,
 				1D06220B18317609002350B5 /* CFFoundationVersionNumber.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (DateComparable)
+@interface NSString (CFDateComparable)
 
 - (NSComparisonResult)compareDates:(NSString *)someDate;
 

@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSException (Throwable)
+@interface NSException (CFThrowable)
 
 + (void)throwInternalInconsistencyExceptionMethodMustOverride;
 + (NSException*)getInternalInconsistencyExceptionMethodMustOverride;

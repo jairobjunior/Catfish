@@ -5,7 +5,7 @@
 //  Created by Jacques Pienaar on 24/2/12.
 // 
 //
-#import "UIAlertView+Utility.h"
+#import "UIAlertView+CFUtility.h"
 
 @interface UIAlertViewHandler : NSObject<UIAlertViewDelegate>
 
@@ -40,7 +40,7 @@
 
 @end
 
-@implementation UIAlertView (Utility)
+@implementation UIAlertView (CFUtility)
 
 static UIAlertViewHandler *alertViewHandler = nil;
 

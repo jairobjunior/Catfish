@@ -6,9 +6,9 @@
 //  Copyright (c) 2013 Jairo Junior & Ramon Barros. All rights reserved.
 //
 
-#import "NSString+Validation.h"
+#import "NSString+CFValidation.h"
 
-@implementation NSString (Validation)
+@implementation NSString (CFValidation)
 
 
 - (BOOL)isValidEmailFormat

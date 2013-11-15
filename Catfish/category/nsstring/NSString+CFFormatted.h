@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (Formatted)
+@interface NSString (CFFormatted)
 
 + (NSString*)decimalFormatterWithFloat:(double)value;
 

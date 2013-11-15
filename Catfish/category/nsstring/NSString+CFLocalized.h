@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (Localized)
+@interface NSString (CFLocalized)
 
 + (NSString*)getStringLocalizedWithKey:(NSString*)key;
 + (NSString*)getStringLocalizedWithKey:(NSString*)key comment:(NSString*)comment;
