@@ -78,6 +78,7 @@
 		1D06220C183176F0002350B5 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		1D0622C218317FD5002350B5 /* CFStringConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStringConstants.h; sourceTree = "<group>"; };
 		1D0622C318317FD5002350B5 /* CFStringConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFStringConstants.m; sourceTree = "<group>"; };
+		1DCEC7291836788000EECAB7 /* Catfish-Walppaper-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Catfish-Walppaper-5.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +110,7 @@
 			children = (
 				1D0621C41831642A002350B5 /* Catfish */,
 				1D0621D81831642A002350B5 /* CatfishTests */,
+				1DCEC7281836787F00EECAB7 /* Resources */,
 				1D0621C11831642A002350B5 /* Frameworks */,
 				1D0621C01831642A002350B5 /* Products */,
 			);
@@ -233,6 +235,14 @@
 				1D06220A18317609002350B5 /* CFFoundationVersionNumber.m */,
 			);
 			path = util;
+			sourceTree = "<group>";
+		};
+		1DCEC7281836787F00EECAB7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1DCEC7291836788000EECAB7 /* Catfish-Walppaper-5.png */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
