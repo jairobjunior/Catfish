@@ -78,7 +78,7 @@
 		1D06220C183176F0002350B5 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		1D0622C218317FD5002350B5 /* CFStringConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStringConstants.h; sourceTree = "<group>"; };
 		1D0622C318317FD5002350B5 /* CFStringConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFStringConstants.m; sourceTree = "<group>"; };
-		1DCEC7291836788000EECAB7 /* Catfish-Walppaper-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Catfish-Walppaper-5.png"; sourceTree = "<group>"; };
+		1DAE112F1847D3250076D80B /* Catfish-Walppaper-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Catfish-Walppaper-5.png"; path = "Catfish/Resources/Catfish-Walppaper-5.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,7 +240,7 @@
 		1DCEC7281836787F00EECAB7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				1DCEC7291836788000EECAB7 /* Catfish-Walppaper-5.png */,
+				1DAE112F1847D3250076D80B /* Catfish-Walppaper-5.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
