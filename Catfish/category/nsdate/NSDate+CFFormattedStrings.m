@@ -39,7 +39,7 @@
 }
 
 //June 13, 2013
-- (NSString *)dateToString
+- (NSString *)dateWithNamesMonth
 {
     NSDateFormatter *prefixDateFormatter = [[NSDateFormatter alloc] init];
     [prefixDateFormatter setFormatterBehavior:NSDateFormatterBehavior10_4];

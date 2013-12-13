@@ -24,6 +24,10 @@
 		1D062207183167AB002350B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D062206183167AB002350B5 /* UIKit.framework */; };
 		1D06220B18317609002350B5 /* CFFoundationVersionNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D06220A18317609002350B5 /* CFFoundationVersionNumber.m */; };
 		1D0622C418317FD5002350B5 /* CFStringConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0622C318317FD5002350B5 /* CFStringConstants.m */; };
+		1D116EF618590CDC0021F27D /* CFSMSMessageCompose.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D116EF518590CDC0021F27D /* CFSMSMessageCompose.m */; };
+		1D116EF818590E0D0021F27D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D116EF718590E0D0021F27D /* MessageUI.framework */; };
+		1DFD1007185969E900464A4D /* CFMailMessageCompose.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD1006185969E900464A4D /* CFMailMessageCompose.m */; };
+		1DFD103C185A202500464A4D /* UIImage+CFColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD103B185A202500464A4D /* UIImage+CFColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +45,7 @@
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
+			dstSubfolderSpec = 7;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -75,10 +79,18 @@
 		1D062206183167AB002350B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1D06220918317609002350B5 /* CFFoundationVersionNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFFoundationVersionNumber.h; sourceTree = "<group>"; };
 		1D06220A18317609002350B5 /* CFFoundationVersionNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFFoundationVersionNumber.m; sourceTree = "<group>"; };
-		1D06220C183176F0002350B5 /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		1D0622C218317FD5002350B5 /* CFStringConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStringConstants.h; sourceTree = "<group>"; };
 		1D0622C318317FD5002350B5 /* CFStringConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFStringConstants.m; sourceTree = "<group>"; };
+		1D116EF418590CDC0021F27D /* CFSMSMessageCompose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSMSMessageCompose.h; sourceTree = "<group>"; };
+		1D116EF518590CDC0021F27D /* CFSMSMessageCompose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSMSMessageCompose.m; sourceTree = "<group>"; };
+		1D116EF718590E0D0021F27D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		1DAE112F1847D3250076D80B /* Catfish-Walppaper-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Catfish-Walppaper-5.png"; path = "Catfish/Resources/Catfish-Walppaper-5.png"; sourceTree = SOURCE_ROOT; };
+		1DFD1005185969E900464A4D /* CFMailMessageCompose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFMailMessageCompose.h; sourceTree = "<group>"; };
+		1DFD1006185969E900464A4D /* CFMailMessageCompose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFMailMessageCompose.m; sourceTree = "<group>"; };
+		1DFD101418597E5000464A4D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		1DFD10381859F61300464A4D /* Support.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Support.bundle; path = Catfish/Resources/Support.bundle; sourceTree = SOURCE_ROOT; };
+		1DFD103A185A202500464A4D /* UIImage+CFColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CFColor.h"; sourceTree = "<group>"; };
+		1DFD103B185A202500464A4D /* UIImage+CFColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CFColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D116EF818590E0D0021F27D /* MessageUI.framework in Frameworks */,
 				1D062207183167AB002350B5 /* UIKit.framework in Frameworks */,
 				1D0621C31831642A002350B5 /* Foundation.framework in Frameworks */,
 			);
@@ -128,10 +141,12 @@
 		1D0621C11831642A002350B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1D116EF718590E0D0021F27D /* MessageUI.framework */,
 				1D062206183167AB002350B5 /* UIKit.framework */,
 				1D0621C21831642A002350B5 /* Foundation.framework */,
 				1D0621D01831642A002350B5 /* XCTest.framework */,
 				1D0621D31831642A002350B5 /* UIKit.framework */,
+				1DFD101418597E5000464A4D /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				1D0621E81831672E002350B5 /* category */,
+				1D116EF318590CA60021F27D /* MessageComposer */,
 				1D06220818317609002350B5 /* util */,
 				1D0622C218317FD5002350B5 /* CFStringConstants.h */,
 				1D0622C318317FD5002350B5 /* CFStringConstants.m */,
@@ -152,7 +168,6 @@
 			isa = PBXGroup;
 			children = (
 				1D0621C61831642A002350B5 /* Catfish-Prefix.pch */,
-				1D06220C183176F0002350B5 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -182,6 +197,7 @@
 				1D0621EC1831672E002350B5 /* nsexception */,
 				1D0621F21831672E002350B5 /* nsstring */,
 				1D0621FB1831672F002350B5 /* uialertview */,
+				1DFD1039185A1FF500464A4D /* uiimage */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -237,12 +253,33 @@
 			path = util;
 			sourceTree = "<group>";
 		};
+		1D116EF318590CA60021F27D /* MessageComposer */ = {
+			isa = PBXGroup;
+			children = (
+				1D116EF418590CDC0021F27D /* CFSMSMessageCompose.h */,
+				1D116EF518590CDC0021F27D /* CFSMSMessageCompose.m */,
+				1DFD1005185969E900464A4D /* CFMailMessageCompose.h */,
+				1DFD1006185969E900464A4D /* CFMailMessageCompose.m */,
+			);
+			path = MessageComposer;
+			sourceTree = "<group>";
+		};
 		1DCEC7281836787F00EECAB7 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
 				1DAE112F1847D3250076D80B /* Catfish-Walppaper-5.png */,
+				1DFD10381859F61300464A4D /* Support.bundle */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		1DFD1039185A1FF500464A4D /* uiimage */ = {
+			isa = PBXGroup;
+			children = (
+				1DFD103A185A202500464A4D /* UIImage+CFColor.h */,
+				1DFD103B185A202500464A4D /* UIImage+CFColor.m */,
+			);
+			path = uiimage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +326,7 @@
 		1D0621B71831642A002350B5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CF;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = Sook;
 			};
@@ -330,7 +368,10 @@
 				1D0622031831672F002350B5 /* NSString+CFLocalized.m in Sources */,
 				1D0621FE1831672F002350B5 /* NSDate+CFFormattedStrings.m in Sources */,
 				1D0622C418317FD5002350B5 /* CFStringConstants.m in Sources */,
+				1DFD103C185A202500464A4D /* UIImage+CFColor.m in Sources */,
 				1D0621FF1831672F002350B5 /* NSException+CFThrowable.m in Sources */,
+				1D116EF618590CDC0021F27D /* CFSMSMessageCompose.m in Sources */,
+				1DFD1007185969E900464A4D /* CFMailMessageCompose.m in Sources */,
 				1D0622051831672F002350B5 /* UIAlertView+CFUtility.m in Sources */,
 				1D0622041831672F002350B5 /* NSString+CFValidation.m in Sources */,
 				1D0622011831672F002350B5 /* NSString+CFDateComparable.m in Sources */,

@@ -1,0 +1,30 @@
+/* 
+  Localizable.strings
+  Catfish
+
+  Created by Jairo Junior on 11/11/13.
+  Copyright (c) 2013 Sook. All rights reserved.
+*/
+
+"CF.MESSAGE.SUCCESS" = "Success";
+"CF.MESSAGE.ERROR" = "Error";
+"CF.MESSAGE.LOADING" = "Loading...";
+
+"CF.ALERT.OK" = "OK";
+"CF.ALERT.CANCEL" = "CANCEL";
+
+"CF.HOUR.PM" = "PM";
+"CF.HOUR.AM" = "AM";
+
+"CF.MESSAGE.COMPOSER.SMS.DEVICE.NOT.CONFIGURED" = "Device not configured to send SMS";
+"CF.MESSAGE.COMPOSER.SMS.SENDING.CANCELED" = "SMS sending canceled";
+"CF.MESSAGE.COMPOSER.SMS.SENT" = "SMS sent";
+"CF.MESSAGE.COMPOSER.SMS.SENDING.FAILED" = "SMS sending failed";
+"CF.MESSAGE.COMPOSER.SMS.NOT.SENT" = "SMS not sent";
+
+"CF.MESSAGE.COMPOSER.MAIL.DEVICE.NOT.CONFIGURED" = "Device not configured to send Mail";
+"CF.MESSAGE.COMPOSER.MAIL.SENDING.CANCELED" = "Mail sending canceled";
+"CF.MESSAGE.COMPOSER.MAIL.SAVED" = "Mail saved";
+"CF.MESSAGE.COMPOSER.MAIL.SENT" = "Mail sent";
+"CF.MESSAGE.COMPOSER.MAIL.SENDING.FAILED" = "Mail sending failed";
+"CF.MESSAGE.COMPOSER.MAIL.NOT.SENT" = "Mail not sent";

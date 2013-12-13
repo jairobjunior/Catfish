@@ -13,13 +13,13 @@ Pod::Spec.new do |s|
   
   s.source       = { :git => "https://github.com/jairobjunior/Catfish.git", :tag => "0.1.1-beta" }
   s.source_files  = 'Catfish', 'Catfish/**/*.{h,m}'
-  s.resources = "Catfish/Resources/*.png"
+  s.resources = "Catfish/Resources/*.png", "Catfish/Resources/*.bundle"
 
   s.requires_arc = true
   s.ios.deployment_target = '7.0'
 
   s.frameworks  = 'QuartzCore', 'UIKit'
   
-  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/Catfish"' }
+  s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/Catfish"' }  
 
 end

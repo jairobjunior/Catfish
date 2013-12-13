@@ -12,7 +12,10 @@
 
 + (NSString*)getStringLocalizedWithKey:(NSString*)key
 {
-    return NSLocalizedString(key, nil);
+    NSString *bundlePath = [[NSBundle mainBundle] pathForResource:@"Support" ofType:@"bundle"];
+    NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
+    
+    return NSLocalizedStringFromTableInBundle(key, @"Root", bundle, nil);
 }
 
 + (NSString*)getStringLocalizedWithKey:(NSString*)key comment:(NSString*)comment

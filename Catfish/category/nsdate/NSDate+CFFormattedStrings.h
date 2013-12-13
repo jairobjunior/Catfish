@@ -12,6 +12,7 @@
 
 - (NSString *)dateWithDaySuffix;
 - (NSString *)dayWithSuffix;
+- (NSString *)dateWithNamesMonth;
 - (NSString *)hourWithMinutes;
 
 @end
