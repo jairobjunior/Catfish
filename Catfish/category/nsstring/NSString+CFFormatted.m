@@ -17,5 +17,12 @@
     [numberFormatter setMaximumFractionDigits:2];
     return [numberFormatter stringFromNumber:[NSNumber numberWithFloat:value]];
 }
++ (NSString*)currencyFormatterWithFloat:(double)value
+{
+    NSNumberFormatter *numberFormatter = [[NSNumberFormatter alloc] init];
+    [numberFormatter setNumberStyle:NSNumberFormatterCurrencyStyle];
+    [numberFormatter setMaximumFractionDigits:0];
+    return [numberFormatter stringFromNumber:[NSNumber numberWithFloat:value]];
+}
 
 @end

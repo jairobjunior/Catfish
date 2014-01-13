@@ -11,5 +11,6 @@
 @interface NSString (CFFormatted)
 
 + (NSString*)decimalFormatterWithFloat:(double)value;
++ (NSString*)currencyFormatterWithFloat:(double)value;
 
 @end
