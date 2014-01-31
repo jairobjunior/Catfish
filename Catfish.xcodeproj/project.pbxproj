@@ -14,20 +14,21 @@
 		1D0621D71831642A002350B5 /* libCatfish.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0621BF1831642A002350B5 /* libCatfish.a */; };
 		1D0621DD1831642A002350B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D0621DB1831642A002350B5 /* InfoPlist.strings */; };
 		1D0621DF1831642A002350B5 /* CatfishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621DE1831642A002350B5 /* CatfishTests.m */; };
-		1D0621FE1831672F002350B5 /* NSDate+CFFormattedStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621EB1831672E002350B5 /* NSDate+CFFormattedStrings.m */; };
-		1D0621FF1831672F002350B5 /* NSException+CFThrowable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621EE1831672E002350B5 /* NSException+CFThrowable.m */; };
-		1D0622011831672F002350B5 /* NSString+CFDateComparable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621F41831672F002350B5 /* NSString+CFDateComparable.m */; };
-		1D0622021831672F002350B5 /* NSString+CFFormatted.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621F61831672F002350B5 /* NSString+CFFormatted.m */; };
-		1D0622031831672F002350B5 /* NSString+CFLocalized.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621F81831672F002350B5 /* NSString+CFLocalized.m */; };
-		1D0622041831672F002350B5 /* NSString+CFValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621FA1831672F002350B5 /* NSString+CFValidation.m */; };
-		1D0622051831672F002350B5 /* UIAlertView+CFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621FD1831672F002350B5 /* UIAlertView+CFUtility.m */; };
 		1D062207183167AB002350B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D062206183167AB002350B5 /* UIKit.framework */; };
-		1D06220B18317609002350B5 /* CFFoundationVersionNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D06220A18317609002350B5 /* CFFoundationVersionNumber.m */; };
-		1D0622C418317FD5002350B5 /* CFStringConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0622C318317FD5002350B5 /* CFStringConstants.m */; };
-		1D116EF618590CDC0021F27D /* CFSMSMessageCompose.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D116EF518590CDC0021F27D /* CFSMSMessageCompose.m */; };
+		1D0AF926189B4CDC00F68928 /* NSDate+CFFormattedStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF903189B4CDC00F68928 /* NSDate+CFFormattedStrings.m */; };
+		1D0AF927189B4CDC00F68928 /* NSException+CFThrowable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF906189B4CDC00F68928 /* NSException+CFThrowable.m */; };
+		1D0AF928189B4CDC00F68928 /* NSString+CFDateComparable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF90A189B4CDC00F68928 /* NSString+CFDateComparable.m */; };
+		1D0AF929189B4CDC00F68928 /* NSString+CFFormatted.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF90C189B4CDC00F68928 /* NSString+CFFormatted.m */; };
+		1D0AF92A189B4CDC00F68928 /* NSString+CFLocalized.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF90E189B4CDC00F68928 /* NSString+CFLocalized.m */; };
+		1D0AF92B189B4CDC00F68928 /* NSString+CFValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF910189B4CDC00F68928 /* NSString+CFValidation.m */; };
+		1D0AF92C189B4CDC00F68928 /* UIAlertView+CFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF913189B4CDC00F68928 /* UIAlertView+CFUtility.m */; };
+		1D0AF92D189B4CDC00F68928 /* UIImage+CFColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF916189B4CDC00F68928 /* UIImage+CFColor.m */; };
+		1D0AF92E189B4CDC00F68928 /* CFStringConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF918189B4CDC00F68928 /* CFStringConstants.m */; };
+		1D0AF92F189B4CDC00F68928 /* CFMailMessageCompose.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF91B189B4CDC00F68928 /* CFMailMessageCompose.m */; };
+		1D0AF930189B4CDC00F68928 /* CFSMSMessageCompose.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF91D189B4CDC00F68928 /* CFSMSMessageCompose.m */; };
+		1D0AF931189B4CDC00F68928 /* CFFoundationVersionNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF920189B4CDC00F68928 /* CFFoundationVersionNumber.m */; };
 		1D116EF818590E0D0021F27D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D116EF718590E0D0021F27D /* MessageUI.framework */; };
-		1DFD1007185969E900464A4D /* CFMailMessageCompose.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD1006185969E900464A4D /* CFMailMessageCompose.m */; };
-		1DFD103C185A202500464A4D /* UIImage+CFColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DFD103B185A202500464A4D /* UIImage+CFColor.m */; };
+		624590C67FC84C16B4226837 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 968D03187068443CA12CDAD3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,42 +56,45 @@
 /* Begin PBXFileReference section */
 		1D0621BF1831642A002350B5 /* libCatfish.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCatfish.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0621C21831642A002350B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1D0621C61831642A002350B5 /* Catfish-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Catfish-Prefix.pch"; sourceTree = "<group>"; };
 		1D0621CF1831642A002350B5 /* CatfishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatfishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0621D01831642A002350B5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		1D0621D31831642A002350B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1D0621DA1831642A002350B5 /* CatfishTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CatfishTests-Info.plist"; sourceTree = "<group>"; };
 		1D0621DC1831642A002350B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1D0621DE1831642A002350B5 /* CatfishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatfishTests.m; sourceTree = "<group>"; };
-		1D0621EA1831672E002350B5 /* NSDate+CFFormattedStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CFFormattedStrings.h"; sourceTree = "<group>"; };
-		1D0621EB1831672E002350B5 /* NSDate+CFFormattedStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CFFormattedStrings.m"; sourceTree = "<group>"; };
-		1D0621ED1831672E002350B5 /* NSException+CFThrowable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+CFThrowable.h"; sourceTree = "<group>"; };
-		1D0621EE1831672E002350B5 /* NSException+CFThrowable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+CFThrowable.m"; sourceTree = "<group>"; };
-		1D0621F31831672E002350B5 /* NSString+CFDateComparable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFDateComparable.h"; sourceTree = "<group>"; };
-		1D0621F41831672F002350B5 /* NSString+CFDateComparable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFDateComparable.m"; sourceTree = "<group>"; };
-		1D0621F51831672F002350B5 /* NSString+CFFormatted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFFormatted.h"; sourceTree = "<group>"; };
-		1D0621F61831672F002350B5 /* NSString+CFFormatted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFFormatted.m"; sourceTree = "<group>"; };
-		1D0621F71831672F002350B5 /* NSString+CFLocalized.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFLocalized.h"; sourceTree = "<group>"; };
-		1D0621F81831672F002350B5 /* NSString+CFLocalized.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFLocalized.m"; sourceTree = "<group>"; };
-		1D0621F91831672F002350B5 /* NSString+CFValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFValidation.h"; sourceTree = "<group>"; };
-		1D0621FA1831672F002350B5 /* NSString+CFValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFValidation.m"; sourceTree = "<group>"; };
-		1D0621FC1831672F002350B5 /* UIAlertView+CFUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+CFUtility.h"; sourceTree = "<group>"; };
-		1D0621FD1831672F002350B5 /* UIAlertView+CFUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+CFUtility.m"; sourceTree = "<group>"; };
 		1D062206183167AB002350B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		1D06220918317609002350B5 /* CFFoundationVersionNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFFoundationVersionNumber.h; sourceTree = "<group>"; };
-		1D06220A18317609002350B5 /* CFFoundationVersionNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFFoundationVersionNumber.m; sourceTree = "<group>"; };
-		1D0622C218317FD5002350B5 /* CFStringConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStringConstants.h; sourceTree = "<group>"; };
-		1D0622C318317FD5002350B5 /* CFStringConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFStringConstants.m; sourceTree = "<group>"; };
-		1D116EF418590CDC0021F27D /* CFSMSMessageCompose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSMSMessageCompose.h; sourceTree = "<group>"; };
-		1D116EF518590CDC0021F27D /* CFSMSMessageCompose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSMSMessageCompose.m; sourceTree = "<group>"; };
+		1D0AF8FE189B4CDC00F68928 /* Catfish-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Catfish-Prefix.pch"; sourceTree = "<group>"; };
+		1D0AF902189B4CDC00F68928 /* NSDate+CFFormattedStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CFFormattedStrings.h"; sourceTree = "<group>"; };
+		1D0AF903189B4CDC00F68928 /* NSDate+CFFormattedStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CFFormattedStrings.m"; sourceTree = "<group>"; };
+		1D0AF905189B4CDC00F68928 /* NSException+CFThrowable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+CFThrowable.h"; sourceTree = "<group>"; };
+		1D0AF906189B4CDC00F68928 /* NSException+CFThrowable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+CFThrowable.m"; sourceTree = "<group>"; };
+		1D0AF909189B4CDC00F68928 /* NSString+CFDateComparable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFDateComparable.h"; sourceTree = "<group>"; };
+		1D0AF90A189B4CDC00F68928 /* NSString+CFDateComparable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFDateComparable.m"; sourceTree = "<group>"; };
+		1D0AF90B189B4CDC00F68928 /* NSString+CFFormatted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFFormatted.h"; sourceTree = "<group>"; };
+		1D0AF90C189B4CDC00F68928 /* NSString+CFFormatted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFFormatted.m"; sourceTree = "<group>"; };
+		1D0AF90D189B4CDC00F68928 /* NSString+CFLocalized.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFLocalized.h"; sourceTree = "<group>"; };
+		1D0AF90E189B4CDC00F68928 /* NSString+CFLocalized.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFLocalized.m"; sourceTree = "<group>"; };
+		1D0AF90F189B4CDC00F68928 /* NSString+CFValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFValidation.h"; sourceTree = "<group>"; };
+		1D0AF910189B4CDC00F68928 /* NSString+CFValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFValidation.m"; sourceTree = "<group>"; };
+		1D0AF912189B4CDC00F68928 /* UIAlertView+CFUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+CFUtility.h"; sourceTree = "<group>"; };
+		1D0AF913189B4CDC00F68928 /* UIAlertView+CFUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+CFUtility.m"; sourceTree = "<group>"; };
+		1D0AF915189B4CDC00F68928 /* UIImage+CFColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CFColor.h"; sourceTree = "<group>"; };
+		1D0AF916189B4CDC00F68928 /* UIImage+CFColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CFColor.m"; sourceTree = "<group>"; };
+		1D0AF917189B4CDC00F68928 /* CFStringConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStringConstants.h; sourceTree = "<group>"; };
+		1D0AF918189B4CDC00F68928 /* CFStringConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFStringConstants.m; sourceTree = "<group>"; };
+		1D0AF91A189B4CDC00F68928 /* CFMailMessageCompose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFMailMessageCompose.h; sourceTree = "<group>"; };
+		1D0AF91B189B4CDC00F68928 /* CFMailMessageCompose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFMailMessageCompose.m; sourceTree = "<group>"; };
+		1D0AF91C189B4CDC00F68928 /* CFSMSMessageCompose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSMSMessageCompose.h; sourceTree = "<group>"; };
+		1D0AF91D189B4CDC00F68928 /* CFSMSMessageCompose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSMSMessageCompose.m; sourceTree = "<group>"; };
+		1D0AF91F189B4CDC00F68928 /* CFFoundationVersionNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFFoundationVersionNumber.h; sourceTree = "<group>"; };
+		1D0AF920189B4CDC00F68928 /* CFFoundationVersionNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFFoundationVersionNumber.m; sourceTree = "<group>"; };
+		1D0AF922189B4CDC00F68928 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1D0AF924189B4CDC00F68928 /* Catfish-Walppaper-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Catfish-Walppaper-5.png"; sourceTree = "<group>"; };
+		1D0AF925189B4CDC00F68928 /* Support.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Support.bundle; sourceTree = "<group>"; };
 		1D116EF718590E0D0021F27D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		1DAE112F1847D3250076D80B /* Catfish-Walppaper-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Catfish-Walppaper-5.png"; path = "Catfish/Resources/Catfish-Walppaper-5.png"; sourceTree = SOURCE_ROOT; };
-		1DFD1005185969E900464A4D /* CFMailMessageCompose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFMailMessageCompose.h; sourceTree = "<group>"; };
-		1DFD1006185969E900464A4D /* CFMailMessageCompose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFMailMessageCompose.m; sourceTree = "<group>"; };
 		1DFD101418597E5000464A4D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		1DFD10381859F61300464A4D /* Support.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Support.bundle; path = Catfish/Resources/Support.bundle; sourceTree = SOURCE_ROOT; };
-		1DFD103A185A202500464A4D /* UIImage+CFColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CFColor.h"; sourceTree = "<group>"; };
-		1DFD103B185A202500464A4D /* UIImage+CFColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CFColor.m"; sourceTree = "<group>"; };
+		968D03187068443CA12CDAD3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		987B91719BCB4C0EACD6A901 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 				1D116EF818590E0D0021F27D /* MessageUI.framework in Frameworks */,
 				1D062207183167AB002350B5 /* UIKit.framework in Frameworks */,
 				1D0621C31831642A002350B5 /* Foundation.framework in Frameworks */,
+				624590C67FC84C16B4226837 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,11 +126,11 @@
 		1D0621B61831642A002350B5 = {
 			isa = PBXGroup;
 			children = (
-				1D0621C41831642A002350B5 /* Catfish */,
+				1D0AF8FD189B4CDC00F68928 /* Catfish */,
 				1D0621D81831642A002350B5 /* CatfishTests */,
-				1DCEC7281836787F00EECAB7 /* Resources */,
 				1D0621C11831642A002350B5 /* Frameworks */,
 				1D0621C01831642A002350B5 /* Products */,
+				987B91719BCB4C0EACD6A901 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,29 +152,9 @@
 				1D0621D01831642A002350B5 /* XCTest.framework */,
 				1D0621D31831642A002350B5 /* UIKit.framework */,
 				1DFD101418597E5000464A4D /* CoreFoundation.framework */,
+				968D03187068443CA12CDAD3 /* libPods.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1D0621C41831642A002350B5 /* Catfish */ = {
-			isa = PBXGroup;
-			children = (
-				1D0621E81831672E002350B5 /* category */,
-				1D116EF318590CA60021F27D /* MessageComposer */,
-				1D06220818317609002350B5 /* util */,
-				1D0622C218317FD5002350B5 /* CFStringConstants.h */,
-				1D0622C318317FD5002350B5 /* CFStringConstants.m */,
-				1D0621C51831642A002350B5 /* Supporting Files */,
-			);
-			path = Catfish;
-			sourceTree = "<group>";
-		};
-		1D0621C51831642A002350B5 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1D0621C61831642A002350B5 /* Catfish-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		1D0621D81831642A002350B5 /* CatfishTests */ = {
@@ -190,96 +175,135 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1D0621E81831672E002350B5 /* category */ = {
+		1D0AF8FD189B4CDC00F68928 /* Catfish */ = {
 			isa = PBXGroup;
 			children = (
-				1D0621E91831672E002350B5 /* nsdate */,
-				1D0621EC1831672E002350B5 /* nsexception */,
-				1D0621F21831672E002350B5 /* nsstring */,
-				1D0621FB1831672F002350B5 /* uialertview */,
-				1DFD1039185A1FF500464A4D /* uiimage */,
+				1D0AF8FF189B4CDC00F68928 /* Classes */,
+				1D0AF923189B4CDC00F68928 /* Resources */,
+				1D0AF932189B4D0300F68928 /* Supporting Files */,
+			);
+			path = Catfish;
+			sourceTree = "<group>";
+		};
+		1D0AF8FF189B4CDC00F68928 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D0AF900189B4CDC00F68928 /* category */,
+				1D0AF917189B4CDC00F68928 /* CFStringConstants.h */,
+				1D0AF918189B4CDC00F68928 /* CFStringConstants.m */,
+				1D0AF919189B4CDC00F68928 /* MessageComposer */,
+				1D0AF91E189B4CDC00F68928 /* util */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		1D0AF900189B4CDC00F68928 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				1D0AF901189B4CDC00F68928 /* nsdate */,
+				1D0AF904189B4CDC00F68928 /* nsexception */,
+				1D0AF907189B4CDC00F68928 /* nsnumber */,
+				1D0AF908189B4CDC00F68928 /* nsstring */,
+				1D0AF911189B4CDC00F68928 /* uialertview */,
+				1D0AF914189B4CDC00F68928 /* uiimage */,
 			);
 			path = category;
 			sourceTree = "<group>";
 		};
-		1D0621E91831672E002350B5 /* nsdate */ = {
+		1D0AF901189B4CDC00F68928 /* nsdate */ = {
 			isa = PBXGroup;
 			children = (
-				1D0621EA1831672E002350B5 /* NSDate+CFFormattedStrings.h */,
-				1D0621EB1831672E002350B5 /* NSDate+CFFormattedStrings.m */,
+				1D0AF902189B4CDC00F68928 /* NSDate+CFFormattedStrings.h */,
+				1D0AF903189B4CDC00F68928 /* NSDate+CFFormattedStrings.m */,
 			);
 			path = nsdate;
 			sourceTree = "<group>";
 		};
-		1D0621EC1831672E002350B5 /* nsexception */ = {
+		1D0AF904189B4CDC00F68928 /* nsexception */ = {
 			isa = PBXGroup;
 			children = (
-				1D0621ED1831672E002350B5 /* NSException+CFThrowable.h */,
-				1D0621EE1831672E002350B5 /* NSException+CFThrowable.m */,
+				1D0AF905189B4CDC00F68928 /* NSException+CFThrowable.h */,
+				1D0AF906189B4CDC00F68928 /* NSException+CFThrowable.m */,
 			);
 			path = nsexception;
 			sourceTree = "<group>";
 		};
-		1D0621F21831672E002350B5 /* nsstring */ = {
+		1D0AF907189B4CDC00F68928 /* nsnumber */ = {
 			isa = PBXGroup;
 			children = (
-				1D0621F31831672E002350B5 /* NSString+CFDateComparable.h */,
-				1D0621F41831672F002350B5 /* NSString+CFDateComparable.m */,
-				1D0621F51831672F002350B5 /* NSString+CFFormatted.h */,
-				1D0621F61831672F002350B5 /* NSString+CFFormatted.m */,
-				1D0621F71831672F002350B5 /* NSString+CFLocalized.h */,
-				1D0621F81831672F002350B5 /* NSString+CFLocalized.m */,
-				1D0621F91831672F002350B5 /* NSString+CFValidation.h */,
-				1D0621FA1831672F002350B5 /* NSString+CFValidation.m */,
+			);
+			path = nsnumber;
+			sourceTree = "<group>";
+		};
+		1D0AF908189B4CDC00F68928 /* nsstring */ = {
+			isa = PBXGroup;
+			children = (
+				1D0AF909189B4CDC00F68928 /* NSString+CFDateComparable.h */,
+				1D0AF90A189B4CDC00F68928 /* NSString+CFDateComparable.m */,
+				1D0AF90B189B4CDC00F68928 /* NSString+CFFormatted.h */,
+				1D0AF90C189B4CDC00F68928 /* NSString+CFFormatted.m */,
+				1D0AF90D189B4CDC00F68928 /* NSString+CFLocalized.h */,
+				1D0AF90E189B4CDC00F68928 /* NSString+CFLocalized.m */,
+				1D0AF90F189B4CDC00F68928 /* NSString+CFValidation.h */,
+				1D0AF910189B4CDC00F68928 /* NSString+CFValidation.m */,
 			);
 			path = nsstring;
 			sourceTree = "<group>";
 		};
-		1D0621FB1831672F002350B5 /* uialertview */ = {
+		1D0AF911189B4CDC00F68928 /* uialertview */ = {
 			isa = PBXGroup;
 			children = (
-				1D0621FC1831672F002350B5 /* UIAlertView+CFUtility.h */,
-				1D0621FD1831672F002350B5 /* UIAlertView+CFUtility.m */,
+				1D0AF912189B4CDC00F68928 /* UIAlertView+CFUtility.h */,
+				1D0AF913189B4CDC00F68928 /* UIAlertView+CFUtility.m */,
 			);
 			path = uialertview;
 			sourceTree = "<group>";
 		};
-		1D06220818317609002350B5 /* util */ = {
+		1D0AF914189B4CDC00F68928 /* uiimage */ = {
 			isa = PBXGroup;
 			children = (
-				1D06220918317609002350B5 /* CFFoundationVersionNumber.h */,
-				1D06220A18317609002350B5 /* CFFoundationVersionNumber.m */,
+				1D0AF915189B4CDC00F68928 /* UIImage+CFColor.h */,
+				1D0AF916189B4CDC00F68928 /* UIImage+CFColor.m */,
 			);
-			path = util;
+			path = uiimage;
 			sourceTree = "<group>";
 		};
-		1D116EF318590CA60021F27D /* MessageComposer */ = {
+		1D0AF919189B4CDC00F68928 /* MessageComposer */ = {
 			isa = PBXGroup;
 			children = (
-				1D116EF418590CDC0021F27D /* CFSMSMessageCompose.h */,
-				1D116EF518590CDC0021F27D /* CFSMSMessageCompose.m */,
-				1DFD1005185969E900464A4D /* CFMailMessageCompose.h */,
-				1DFD1006185969E900464A4D /* CFMailMessageCompose.m */,
+				1D0AF91A189B4CDC00F68928 /* CFMailMessageCompose.h */,
+				1D0AF91B189B4CDC00F68928 /* CFMailMessageCompose.m */,
+				1D0AF91C189B4CDC00F68928 /* CFSMSMessageCompose.h */,
+				1D0AF91D189B4CDC00F68928 /* CFSMSMessageCompose.m */,
 			);
 			path = MessageComposer;
 			sourceTree = "<group>";
 		};
-		1DCEC7281836787F00EECAB7 /* Resources */ = {
+		1D0AF91E189B4CDC00F68928 /* util */ = {
 			isa = PBXGroup;
 			children = (
-				1DAE112F1847D3250076D80B /* Catfish-Walppaper-5.png */,
-				1DFD10381859F61300464A4D /* Support.bundle */,
+				1D0AF91F189B4CDC00F68928 /* CFFoundationVersionNumber.h */,
+				1D0AF920189B4CDC00F68928 /* CFFoundationVersionNumber.m */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		1D0AF923189B4CDC00F68928 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1D0AF924189B4CDC00F68928 /* Catfish-Walppaper-5.png */,
+				1D0AF925189B4CDC00F68928 /* Support.bundle */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		1DFD1039185A1FF500464A4D /* uiimage */ = {
+		1D0AF932189B4D0300F68928 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1DFD103A185A202500464A4D /* UIImage+CFColor.h */,
-				1DFD103B185A202500464A4D /* UIImage+CFColor.m */,
+				1D0AF921189B4CDC00F68928 /* Localizable.strings */,
+				1D0AF8FE189B4CDC00F68928 /* Catfish-Prefix.pch */,
 			);
-			path = uiimage;
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,9 +313,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D0621E21831642A002350B5 /* Build configuration list for PBXNativeTarget "Catfish" */;
 			buildPhases = (
+				E2D676329C4B4F948945B7E0 /* Check Pods Manifest.lock */,
 				1D0621BB1831642A002350B5 /* Sources */,
 				1D0621BC1831642A002350B5 /* Frameworks */,
 				1D0621BD1831642A002350B5 /* CopyFiles */,
+				008F1F3335F14F71B8F702BD /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -359,23 +385,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		008F1F3335F14F71B8F702BD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2D676329C4B4F948945B7E0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D0621BB1831642A002350B5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D0622021831672F002350B5 /* NSString+CFFormatted.m in Sources */,
-				1D0622031831672F002350B5 /* NSString+CFLocalized.m in Sources */,
-				1D0621FE1831672F002350B5 /* NSDate+CFFormattedStrings.m in Sources */,
-				1D0622C418317FD5002350B5 /* CFStringConstants.m in Sources */,
-				1DFD103C185A202500464A4D /* UIImage+CFColor.m in Sources */,
-				1D0621FF1831672F002350B5 /* NSException+CFThrowable.m in Sources */,
-				1D116EF618590CDC0021F27D /* CFSMSMessageCompose.m in Sources */,
-				1DFD1007185969E900464A4D /* CFMailMessageCompose.m in Sources */,
-				1D0622051831672F002350B5 /* UIAlertView+CFUtility.m in Sources */,
-				1D0622041831672F002350B5 /* NSString+CFValidation.m in Sources */,
-				1D0622011831672F002350B5 /* NSString+CFDateComparable.m in Sources */,
-				1D06220B18317609002350B5 /* CFFoundationVersionNumber.m in Sources */,
+				1D0AF92D189B4CDC00F68928 /* UIImage+CFColor.m in Sources */,
+				1D0AF930189B4CDC00F68928 /* CFSMSMessageCompose.m in Sources */,
+				1D0AF92C189B4CDC00F68928 /* UIAlertView+CFUtility.m in Sources */,
+				1D0AF927189B4CDC00F68928 /* NSException+CFThrowable.m in Sources */,
+				1D0AF92A189B4CDC00F68928 /* NSString+CFLocalized.m in Sources */,
+				1D0AF931189B4CDC00F68928 /* CFFoundationVersionNumber.m in Sources */,
+				1D0AF926189B4CDC00F68928 /* NSDate+CFFormattedStrings.m in Sources */,
+				1D0AF92B189B4CDC00F68928 /* NSString+CFValidation.m in Sources */,
+				1D0AF92F189B4CDC00F68928 /* CFMailMessageCompose.m in Sources */,
+				1D0AF928189B4CDC00F68928 /* NSString+CFDateComparable.m in Sources */,
+				1D0AF92E189B4CDC00F68928 /* CFStringConstants.m in Sources */,
+				1D0AF929189B4CDC00F68928 /* NSString+CFFormatted.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +463,14 @@
 				1D0621DC1831642A002350B5 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1D0AF921189B4CDC00F68928 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D0AF922189B4CDC00F68928 /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -481,6 +548,7 @@
 		};
 		1D0621E31831642A002350B5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987B91719BCB4C0EACD6A901 /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/Catfish.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -493,6 +561,7 @@
 		};
 		1D0621E41831642A002350B5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987B91719BCB4C0EACD6A901 /* Pods.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/Catfish.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;

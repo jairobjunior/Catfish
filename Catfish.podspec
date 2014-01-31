@@ -11,12 +11,14 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Jairo Junior" => "jairobjunior@gmail.com" }
   
-  s.source       = { :git => "https://github.com/jairobjunior/Catfish.git", :tag => "0.1.1-beta" }
-  s.source_files  = 'Catfish', 'Catfish/**/*.{h,m}'
+  s.source       = { :git => "https://github.com/jairobjunior/Catfish.git", :tag => s.version.to_s }
+  s.source_files  = 'Catfish/Classes', 'Catfish/Classes/**/*.{h,m}'
   s.resources = "Catfish/Resources/*.png", "Catfish/Resources/*.bundle"
 
   s.requires_arc = true
-  s.ios.deployment_target = '7.0'
+
+  s.ios.deployment_target = '6.0'
+  s.osx.deployment_target = '10.6'
 
   s.frameworks  = 'QuartzCore', 'UIKit'
   
