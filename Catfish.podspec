@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "Catfish is a group of classes and categories useful for iOS developers"
 
   s.description  = <<-DESC
-                   Catfish was created for group common functionalities needed for iOS dev process. 
+                   It is an open source project for iOS platform, written in Objective-C. Its goal is to help programmers with common functionalities needed daily in most projects. Basically, it is a result of refactoring on projects that I have worked on. There are utility categories for NSDate, NSException, NSString, UIAlertView, UIButton and so on. It also has class helper to execute blocks based on your current version of iOS.
                    DESC
 
   s.homepage     = "https://github.com/jairobjunior/Catfish"
