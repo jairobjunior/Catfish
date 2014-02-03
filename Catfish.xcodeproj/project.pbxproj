@@ -7,27 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D0621C31831642A002350B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0621C21831642A002350B5 /* Foundation.framework */; };
-		1D0621D11831642A002350B5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0621D01831642A002350B5 /* XCTest.framework */; };
-		1D0621D21831642A002350B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0621C21831642A002350B5 /* Foundation.framework */; };
-		1D0621D41831642A002350B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0621D31831642A002350B5 /* UIKit.framework */; };
 		1D0621D71831642A002350B5 /* libCatfish.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0621BF1831642A002350B5 /* libCatfish.a */; };
 		1D0621DD1831642A002350B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D0621DB1831642A002350B5 /* InfoPlist.strings */; };
 		1D0621DF1831642A002350B5 /* CatfishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621DE1831642A002350B5 /* CatfishTests.m */; };
-		1D062207183167AB002350B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D062206183167AB002350B5 /* UIKit.framework */; };
-		1D0AF926189B4CDC00F68928 /* NSDate+CFFormattedStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF903189B4CDC00F68928 /* NSDate+CFFormattedStrings.m */; };
-		1D0AF927189B4CDC00F68928 /* NSException+CFThrowable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF906189B4CDC00F68928 /* NSException+CFThrowable.m */; };
-		1D0AF928189B4CDC00F68928 /* NSString+CFDateComparable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF90A189B4CDC00F68928 /* NSString+CFDateComparable.m */; };
-		1D0AF929189B4CDC00F68928 /* NSString+CFFormatted.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF90C189B4CDC00F68928 /* NSString+CFFormatted.m */; };
-		1D0AF92A189B4CDC00F68928 /* NSString+CFLocalized.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF90E189B4CDC00F68928 /* NSString+CFLocalized.m */; };
-		1D0AF92B189B4CDC00F68928 /* NSString+CFValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF910189B4CDC00F68928 /* NSString+CFValidation.m */; };
-		1D0AF92C189B4CDC00F68928 /* UIAlertView+CFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF913189B4CDC00F68928 /* UIAlertView+CFUtility.m */; };
-		1D0AF92D189B4CDC00F68928 /* UIImage+CFColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF916189B4CDC00F68928 /* UIImage+CFColor.m */; };
-		1D0AF92E189B4CDC00F68928 /* CFStringConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF918189B4CDC00F68928 /* CFStringConstants.m */; };
-		1D0AF92F189B4CDC00F68928 /* CFMailMessageCompose.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF91B189B4CDC00F68928 /* CFMailMessageCompose.m */; };
-		1D0AF930189B4CDC00F68928 /* CFSMSMessageCompose.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF91D189B4CDC00F68928 /* CFSMSMessageCompose.m */; };
-		1D0AF931189B4CDC00F68928 /* CFFoundationVersionNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0AF920189B4CDC00F68928 /* CFFoundationVersionNumber.m */; };
-		1D116EF818590E0D0021F27D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D116EF718590E0D0021F27D /* MessageUI.framework */; };
+		1D07D2C2189F2490000EB8E2 /* NSDate+CFFormattedStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2A2189F2490000EB8E2 /* NSDate+CFFormattedStrings.m */; };
+		1D07D2C3189F2490000EB8E2 /* NSException+CFThrowable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2A5189F2490000EB8E2 /* NSException+CFThrowable.m */; };
+		1D07D2C4189F2490000EB8E2 /* NSString+CFDateComparable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2A9189F2490000EB8E2 /* NSString+CFDateComparable.m */; };
+		1D07D2C5189F2490000EB8E2 /* NSString+CFFormatted.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2AB189F2490000EB8E2 /* NSString+CFFormatted.m */; };
+		1D07D2C6189F2490000EB8E2 /* NSString+CFLocalized.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2AD189F2490000EB8E2 /* NSString+CFLocalized.m */; };
+		1D07D2C7189F2490000EB8E2 /* NSString+CFValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2AF189F2490000EB8E2 /* NSString+CFValidation.m */; };
+		1D07D2C8189F2490000EB8E2 /* UIAlertView+CFUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2B3189F2490000EB8E2 /* UIAlertView+CFUtility.m */; };
+		1D07D2C9189F2490000EB8E2 /* UIImage+CFColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2B6189F2490000EB8E2 /* UIImage+CFColor.m */; };
+		1D07D2CA189F2490000EB8E2 /* CFMailMessageCompose.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2B9189F2490000EB8E2 /* CFMailMessageCompose.m */; };
+		1D07D2CB189F2490000EB8E2 /* CFSMSMessageCompose.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2BB189F2490000EB8E2 /* CFSMSMessageCompose.m */; };
+		1D07D2CC189F2490000EB8E2 /* CFFoundationVersionNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2BF189F2490000EB8E2 /* CFFoundationVersionNumber.m */; };
+		1D07D2CD189F2490000EB8E2 /* CFStringConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2C1189F2490000EB8E2 /* CFStringConstants.m */; };
+		1D07D2D0189F25A6000EB8E2 /* CFUIButtonBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2CF189F25A6000EB8E2 /* CFUIButtonBorder.m */; };
 		624590C67FC84C16B4226837 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 968D03187068443CA12CDAD3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -55,44 +50,40 @@
 
 /* Begin PBXFileReference section */
 		1D0621BF1831642A002350B5 /* libCatfish.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCatfish.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D0621C21831642A002350B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D0621CF1831642A002350B5 /* CatfishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatfishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D0621D01831642A002350B5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		1D0621D31831642A002350B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1D0621DA1831642A002350B5 /* CatfishTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CatfishTests-Info.plist"; sourceTree = "<group>"; };
 		1D0621DC1831642A002350B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1D0621DE1831642A002350B5 /* CatfishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatfishTests.m; sourceTree = "<group>"; };
-		1D062206183167AB002350B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1D07D2A1189F2490000EB8E2 /* NSDate+CFFormattedStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CFFormattedStrings.h"; sourceTree = "<group>"; };
+		1D07D2A2189F2490000EB8E2 /* NSDate+CFFormattedStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CFFormattedStrings.m"; sourceTree = "<group>"; };
+		1D07D2A4189F2490000EB8E2 /* NSException+CFThrowable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+CFThrowable.h"; sourceTree = "<group>"; };
+		1D07D2A5189F2490000EB8E2 /* NSException+CFThrowable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+CFThrowable.m"; sourceTree = "<group>"; };
+		1D07D2A8189F2490000EB8E2 /* NSString+CFDateComparable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFDateComparable.h"; sourceTree = "<group>"; };
+		1D07D2A9189F2490000EB8E2 /* NSString+CFDateComparable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFDateComparable.m"; sourceTree = "<group>"; };
+		1D07D2AA189F2490000EB8E2 /* NSString+CFFormatted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFFormatted.h"; sourceTree = "<group>"; };
+		1D07D2AB189F2490000EB8E2 /* NSString+CFFormatted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFFormatted.m"; sourceTree = "<group>"; };
+		1D07D2AC189F2490000EB8E2 /* NSString+CFLocalized.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFLocalized.h"; sourceTree = "<group>"; };
+		1D07D2AD189F2490000EB8E2 /* NSString+CFLocalized.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFLocalized.m"; sourceTree = "<group>"; };
+		1D07D2AE189F2490000EB8E2 /* NSString+CFValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFValidation.h"; sourceTree = "<group>"; };
+		1D07D2AF189F2490000EB8E2 /* NSString+CFValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFValidation.m"; sourceTree = "<group>"; };
+		1D07D2B2189F2490000EB8E2 /* UIAlertView+CFUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+CFUtility.h"; sourceTree = "<group>"; };
+		1D07D2B3189F2490000EB8E2 /* UIAlertView+CFUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+CFUtility.m"; sourceTree = "<group>"; };
+		1D07D2B5189F2490000EB8E2 /* UIImage+CFColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CFColor.h"; sourceTree = "<group>"; };
+		1D07D2B6189F2490000EB8E2 /* UIImage+CFColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CFColor.m"; sourceTree = "<group>"; };
+		1D07D2B8189F2490000EB8E2 /* CFMailMessageCompose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFMailMessageCompose.h; sourceTree = "<group>"; };
+		1D07D2B9189F2490000EB8E2 /* CFMailMessageCompose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFMailMessageCompose.m; sourceTree = "<group>"; };
+		1D07D2BA189F2490000EB8E2 /* CFSMSMessageCompose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSMSMessageCompose.h; sourceTree = "<group>"; };
+		1D07D2BB189F2490000EB8E2 /* CFSMSMessageCompose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSMSMessageCompose.m; sourceTree = "<group>"; };
+		1D07D2BE189F2490000EB8E2 /* CFFoundationVersionNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFFoundationVersionNumber.h; sourceTree = "<group>"; };
+		1D07D2BF189F2490000EB8E2 /* CFFoundationVersionNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFFoundationVersionNumber.m; sourceTree = "<group>"; };
+		1D07D2C0189F2490000EB8E2 /* CFStringConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStringConstants.h; sourceTree = "<group>"; };
+		1D07D2C1189F2490000EB8E2 /* CFStringConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFStringConstants.m; sourceTree = "<group>"; };
+		1D07D2CE189F25A6000EB8E2 /* CFUIButtonBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFUIButtonBorder.h; sourceTree = "<group>"; };
+		1D07D2CF189F25A6000EB8E2 /* CFUIButtonBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFUIButtonBorder.m; sourceTree = "<group>"; };
 		1D0AF8FE189B4CDC00F68928 /* Catfish-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Catfish-Prefix.pch"; sourceTree = "<group>"; };
-		1D0AF902189B4CDC00F68928 /* NSDate+CFFormattedStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CFFormattedStrings.h"; sourceTree = "<group>"; };
-		1D0AF903189B4CDC00F68928 /* NSDate+CFFormattedStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CFFormattedStrings.m"; sourceTree = "<group>"; };
-		1D0AF905189B4CDC00F68928 /* NSException+CFThrowable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+CFThrowable.h"; sourceTree = "<group>"; };
-		1D0AF906189B4CDC00F68928 /* NSException+CFThrowable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSException+CFThrowable.m"; sourceTree = "<group>"; };
-		1D0AF909189B4CDC00F68928 /* NSString+CFDateComparable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFDateComparable.h"; sourceTree = "<group>"; };
-		1D0AF90A189B4CDC00F68928 /* NSString+CFDateComparable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFDateComparable.m"; sourceTree = "<group>"; };
-		1D0AF90B189B4CDC00F68928 /* NSString+CFFormatted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFFormatted.h"; sourceTree = "<group>"; };
-		1D0AF90C189B4CDC00F68928 /* NSString+CFFormatted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFFormatted.m"; sourceTree = "<group>"; };
-		1D0AF90D189B4CDC00F68928 /* NSString+CFLocalized.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFLocalized.h"; sourceTree = "<group>"; };
-		1D0AF90E189B4CDC00F68928 /* NSString+CFLocalized.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFLocalized.m"; sourceTree = "<group>"; };
-		1D0AF90F189B4CDC00F68928 /* NSString+CFValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+CFValidation.h"; sourceTree = "<group>"; };
-		1D0AF910189B4CDC00F68928 /* NSString+CFValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+CFValidation.m"; sourceTree = "<group>"; };
-		1D0AF912189B4CDC00F68928 /* UIAlertView+CFUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+CFUtility.h"; sourceTree = "<group>"; };
-		1D0AF913189B4CDC00F68928 /* UIAlertView+CFUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+CFUtility.m"; sourceTree = "<group>"; };
-		1D0AF915189B4CDC00F68928 /* UIImage+CFColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CFColor.h"; sourceTree = "<group>"; };
-		1D0AF916189B4CDC00F68928 /* UIImage+CFColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CFColor.m"; sourceTree = "<group>"; };
-		1D0AF917189B4CDC00F68928 /* CFStringConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStringConstants.h; sourceTree = "<group>"; };
-		1D0AF918189B4CDC00F68928 /* CFStringConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFStringConstants.m; sourceTree = "<group>"; };
-		1D0AF91A189B4CDC00F68928 /* CFMailMessageCompose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFMailMessageCompose.h; sourceTree = "<group>"; };
-		1D0AF91B189B4CDC00F68928 /* CFMailMessageCompose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFMailMessageCompose.m; sourceTree = "<group>"; };
-		1D0AF91C189B4CDC00F68928 /* CFSMSMessageCompose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSMSMessageCompose.h; sourceTree = "<group>"; };
-		1D0AF91D189B4CDC00F68928 /* CFSMSMessageCompose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSMSMessageCompose.m; sourceTree = "<group>"; };
-		1D0AF91F189B4CDC00F68928 /* CFFoundationVersionNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFFoundationVersionNumber.h; sourceTree = "<group>"; };
-		1D0AF920189B4CDC00F68928 /* CFFoundationVersionNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFFoundationVersionNumber.m; sourceTree = "<group>"; };
 		1D0AF922189B4CDC00F68928 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1D0AF924189B4CDC00F68928 /* Catfish-Walppaper-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Catfish-Walppaper-5.png"; sourceTree = "<group>"; };
 		1D0AF925189B4CDC00F68928 /* Support.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Support.bundle; sourceTree = "<group>"; };
-		1D116EF718590E0D0021F27D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		1DFD101418597E5000464A4D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
 		968D03187068443CA12CDAD3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		987B91719BCB4C0EACD6A901 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,9 +93,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D116EF818590E0D0021F27D /* MessageUI.framework in Frameworks */,
-				1D062207183167AB002350B5 /* UIKit.framework in Frameworks */,
-				1D0621C31831642A002350B5 /* Foundation.framework in Frameworks */,
 				624590C67FC84C16B4226837 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -114,9 +102,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D0621D71831642A002350B5 /* libCatfish.a in Frameworks */,
-				1D0621D11831642A002350B5 /* XCTest.framework in Frameworks */,
-				1D0621D41831642A002350B5 /* UIKit.framework in Frameworks */,
-				1D0621D21831642A002350B5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,12 +131,6 @@
 		1D0621C11831642A002350B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1D116EF718590E0D0021F27D /* MessageUI.framework */,
-				1D062206183167AB002350B5 /* UIKit.framework */,
-				1D0621C21831642A002350B5 /* Foundation.framework */,
-				1D0621D01831642A002350B5 /* XCTest.framework */,
-				1D0621D31831642A002350B5 /* UIKit.framework */,
-				1DFD101418597E5000464A4D /* CoreFoundation.framework */,
 				968D03187068443CA12CDAD3 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -175,6 +154,113 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1D07D29F189F2490000EB8E2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				1D07D2A0189F2490000EB8E2 /* Date */,
+				1D07D2A3189F2490000EB8E2 /* Exception */,
+				1D07D2A6189F2490000EB8E2 /* Number */,
+				1D07D2A7189F2490000EB8E2 /* String */,
+				1D07D2B0189F2490000EB8E2 /* View */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		1D07D2A0189F2490000EB8E2 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				1D07D2A1189F2490000EB8E2 /* NSDate+CFFormattedStrings.h */,
+				1D07D2A2189F2490000EB8E2 /* NSDate+CFFormattedStrings.m */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		1D07D2A3189F2490000EB8E2 /* Exception */ = {
+			isa = PBXGroup;
+			children = (
+				1D07D2A4189F2490000EB8E2 /* NSException+CFThrowable.h */,
+				1D07D2A5189F2490000EB8E2 /* NSException+CFThrowable.m */,
+			);
+			path = Exception;
+			sourceTree = "<group>";
+		};
+		1D07D2A6189F2490000EB8E2 /* Number */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Number;
+			sourceTree = "<group>";
+		};
+		1D07D2A7189F2490000EB8E2 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				1D07D2A8189F2490000EB8E2 /* NSString+CFDateComparable.h */,
+				1D07D2A9189F2490000EB8E2 /* NSString+CFDateComparable.m */,
+				1D07D2AA189F2490000EB8E2 /* NSString+CFFormatted.h */,
+				1D07D2AB189F2490000EB8E2 /* NSString+CFFormatted.m */,
+				1D07D2AC189F2490000EB8E2 /* NSString+CFLocalized.h */,
+				1D07D2AD189F2490000EB8E2 /* NSString+CFLocalized.m */,
+				1D07D2AE189F2490000EB8E2 /* NSString+CFValidation.h */,
+				1D07D2AF189F2490000EB8E2 /* NSString+CFValidation.m */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		1D07D2B0189F2490000EB8E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D07D2B1189F2490000EB8E2 /* Alert */,
+				1D07D2B4189F2490000EB8E2 /* Image */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D07D2B1189F2490000EB8E2 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				1D07D2B2189F2490000EB8E2 /* UIAlertView+CFUtility.h */,
+				1D07D2B3189F2490000EB8E2 /* UIAlertView+CFUtility.m */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
+		1D07D2B4189F2490000EB8E2 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				1D07D2B5189F2490000EB8E2 /* UIImage+CFColor.h */,
+				1D07D2B6189F2490000EB8E2 /* UIImage+CFColor.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		1D07D2B7189F2490000EB8E2 /* Picker */ = {
+			isa = PBXGroup;
+			children = (
+				1D07D2B8189F2490000EB8E2 /* CFMailMessageCompose.h */,
+				1D07D2B9189F2490000EB8E2 /* CFMailMessageCompose.m */,
+				1D07D2BA189F2490000EB8E2 /* CFSMSMessageCompose.h */,
+				1D07D2BB189F2490000EB8E2 /* CFSMSMessageCompose.m */,
+			);
+			path = Picker;
+			sourceTree = "<group>";
+		};
+		1D07D2BC189F2490000EB8E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1D07D2BD189F2490000EB8E2 /* Button */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1D07D2BD189F2490000EB8E2 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				1D07D2CE189F25A6000EB8E2 /* CFUIButtonBorder.h */,
+				1D07D2CF189F25A6000EB8E2 /* CFUIButtonBorder.m */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
 		1D0AF8FD189B4CDC00F68928 /* Catfish */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,104 +274,15 @@
 		1D0AF8FF189B4CDC00F68928 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				1D0AF900189B4CDC00F68928 /* category */,
-				1D0AF917189B4CDC00F68928 /* CFStringConstants.h */,
-				1D0AF918189B4CDC00F68928 /* CFStringConstants.m */,
-				1D0AF919189B4CDC00F68928 /* MessageComposer */,
-				1D0AF91E189B4CDC00F68928 /* util */,
+				1D07D29F189F2490000EB8E2 /* Categories */,
+				1D07D2B7189F2490000EB8E2 /* Picker */,
+				1D07D2BC189F2490000EB8E2 /* View */,
+				1D07D2BE189F2490000EB8E2 /* CFFoundationVersionNumber.h */,
+				1D07D2BF189F2490000EB8E2 /* CFFoundationVersionNumber.m */,
+				1D07D2C0189F2490000EB8E2 /* CFStringConstants.h */,
+				1D07D2C1189F2490000EB8E2 /* CFStringConstants.m */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		1D0AF900189B4CDC00F68928 /* category */ = {
-			isa = PBXGroup;
-			children = (
-				1D0AF901189B4CDC00F68928 /* nsdate */,
-				1D0AF904189B4CDC00F68928 /* nsexception */,
-				1D0AF907189B4CDC00F68928 /* nsnumber */,
-				1D0AF908189B4CDC00F68928 /* nsstring */,
-				1D0AF911189B4CDC00F68928 /* uialertview */,
-				1D0AF914189B4CDC00F68928 /* uiimage */,
-			);
-			path = category;
-			sourceTree = "<group>";
-		};
-		1D0AF901189B4CDC00F68928 /* nsdate */ = {
-			isa = PBXGroup;
-			children = (
-				1D0AF902189B4CDC00F68928 /* NSDate+CFFormattedStrings.h */,
-				1D0AF903189B4CDC00F68928 /* NSDate+CFFormattedStrings.m */,
-			);
-			path = nsdate;
-			sourceTree = "<group>";
-		};
-		1D0AF904189B4CDC00F68928 /* nsexception */ = {
-			isa = PBXGroup;
-			children = (
-				1D0AF905189B4CDC00F68928 /* NSException+CFThrowable.h */,
-				1D0AF906189B4CDC00F68928 /* NSException+CFThrowable.m */,
-			);
-			path = nsexception;
-			sourceTree = "<group>";
-		};
-		1D0AF907189B4CDC00F68928 /* nsnumber */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = nsnumber;
-			sourceTree = "<group>";
-		};
-		1D0AF908189B4CDC00F68928 /* nsstring */ = {
-			isa = PBXGroup;
-			children = (
-				1D0AF909189B4CDC00F68928 /* NSString+CFDateComparable.h */,
-				1D0AF90A189B4CDC00F68928 /* NSString+CFDateComparable.m */,
-				1D0AF90B189B4CDC00F68928 /* NSString+CFFormatted.h */,
-				1D0AF90C189B4CDC00F68928 /* NSString+CFFormatted.m */,
-				1D0AF90D189B4CDC00F68928 /* NSString+CFLocalized.h */,
-				1D0AF90E189B4CDC00F68928 /* NSString+CFLocalized.m */,
-				1D0AF90F189B4CDC00F68928 /* NSString+CFValidation.h */,
-				1D0AF910189B4CDC00F68928 /* NSString+CFValidation.m */,
-			);
-			path = nsstring;
-			sourceTree = "<group>";
-		};
-		1D0AF911189B4CDC00F68928 /* uialertview */ = {
-			isa = PBXGroup;
-			children = (
-				1D0AF912189B4CDC00F68928 /* UIAlertView+CFUtility.h */,
-				1D0AF913189B4CDC00F68928 /* UIAlertView+CFUtility.m */,
-			);
-			path = uialertview;
-			sourceTree = "<group>";
-		};
-		1D0AF914189B4CDC00F68928 /* uiimage */ = {
-			isa = PBXGroup;
-			children = (
-				1D0AF915189B4CDC00F68928 /* UIImage+CFColor.h */,
-				1D0AF916189B4CDC00F68928 /* UIImage+CFColor.m */,
-			);
-			path = uiimage;
-			sourceTree = "<group>";
-		};
-		1D0AF919189B4CDC00F68928 /* MessageComposer */ = {
-			isa = PBXGroup;
-			children = (
-				1D0AF91A189B4CDC00F68928 /* CFMailMessageCompose.h */,
-				1D0AF91B189B4CDC00F68928 /* CFMailMessageCompose.m */,
-				1D0AF91C189B4CDC00F68928 /* CFSMSMessageCompose.h */,
-				1D0AF91D189B4CDC00F68928 /* CFSMSMessageCompose.m */,
-			);
-			path = MessageComposer;
-			sourceTree = "<group>";
-		};
-		1D0AF91E189B4CDC00F68928 /* util */ = {
-			isa = PBXGroup;
-			children = (
-				1D0AF91F189B4CDC00F68928 /* CFFoundationVersionNumber.h */,
-				1D0AF920189B4CDC00F68928 /* CFFoundationVersionNumber.m */,
-			);
-			path = util;
 			sourceTree = "<group>";
 		};
 		1D0AF923189B4CDC00F68928 /* Resources */ = {
@@ -423,18 +420,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D0AF92D189B4CDC00F68928 /* UIImage+CFColor.m in Sources */,
-				1D0AF930189B4CDC00F68928 /* CFSMSMessageCompose.m in Sources */,
-				1D0AF92C189B4CDC00F68928 /* UIAlertView+CFUtility.m in Sources */,
-				1D0AF927189B4CDC00F68928 /* NSException+CFThrowable.m in Sources */,
-				1D0AF92A189B4CDC00F68928 /* NSString+CFLocalized.m in Sources */,
-				1D0AF931189B4CDC00F68928 /* CFFoundationVersionNumber.m in Sources */,
-				1D0AF926189B4CDC00F68928 /* NSDate+CFFormattedStrings.m in Sources */,
-				1D0AF92B189B4CDC00F68928 /* NSString+CFValidation.m in Sources */,
-				1D0AF92F189B4CDC00F68928 /* CFMailMessageCompose.m in Sources */,
-				1D0AF928189B4CDC00F68928 /* NSString+CFDateComparable.m in Sources */,
-				1D0AF92E189B4CDC00F68928 /* CFStringConstants.m in Sources */,
-				1D0AF929189B4CDC00F68928 /* NSString+CFFormatted.m in Sources */,
+				1D07D2C9189F2490000EB8E2 /* UIImage+CFColor.m in Sources */,
+				1D07D2C8189F2490000EB8E2 /* UIAlertView+CFUtility.m in Sources */,
+				1D07D2C3189F2490000EB8E2 /* NSException+CFThrowable.m in Sources */,
+				1D07D2D0189F25A6000EB8E2 /* CFUIButtonBorder.m in Sources */,
+				1D07D2CC189F2490000EB8E2 /* CFFoundationVersionNumber.m in Sources */,
+				1D07D2C6189F2490000EB8E2 /* NSString+CFLocalized.m in Sources */,
+				1D07D2CA189F2490000EB8E2 /* CFMailMessageCompose.m in Sources */,
+				1D07D2CB189F2490000EB8E2 /* CFSMSMessageCompose.m in Sources */,
+				1D07D2CD189F2490000EB8E2 /* CFStringConstants.m in Sources */,
+				1D07D2C2189F2490000EB8E2 /* NSDate+CFFormattedStrings.m in Sources */,
+				1D07D2C7189F2490000EB8E2 /* NSString+CFValidation.m in Sources */,
+				1D07D2C4189F2490000EB8E2 /* NSString+CFDateComparable.m in Sources */,
+				1D07D2C5189F2490000EB8E2 /* NSString+CFFormatted.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

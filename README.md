@@ -1,6 +1,6 @@
 # Catfish
 
-It is an open source project for iOS platform, written in Objective-C. Its goal is to help programmers with common functionalities needed daily in most projects. Basically, it is a result of refactoring on projects that I have worked on. There are utility categories for NSDate, NSException, NSString, UIAlertView, UIButton and so on. It also has class helper to execute blocks based on your current version of iOS.
+It is an open source project with a collection of libraries for iOS platform, written in Objective-C. Its goal is to help programmers with common functionalities needed daily in most projects, making developing mobile apps easier. Basically, it is a result of refactoring on projects that I have worked on. There are utility categories for NSDate, NSException, NSString, UIAlertView, UIButton and so on. It also has class helper to execute blocks based on your current version of iOS.
 
 ## Installation
 
