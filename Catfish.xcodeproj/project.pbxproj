@@ -22,7 +22,7 @@
 		1D07D2CB189F2490000EB8E2 /* CFSMSMessageCompose.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2BB189F2490000EB8E2 /* CFSMSMessageCompose.m */; };
 		1D07D2CC189F2490000EB8E2 /* CFFoundationVersionNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2BF189F2490000EB8E2 /* CFFoundationVersionNumber.m */; };
 		1D07D2CD189F2490000EB8E2 /* CFStringConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2C1189F2490000EB8E2 /* CFStringConstants.m */; };
-		1D07D2D0189F25A6000EB8E2 /* CFUIButtonBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2CF189F25A6000EB8E2 /* CFUIButtonBorder.m */; };
+		1D2C907C18A3042E002CB358 /* CFUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C907B18A3042E002CB358 /* CFUIButton.m */; };
 		624590C67FC84C16B4226837 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 968D03187068443CA12CDAD3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -78,12 +78,12 @@
 		1D07D2BF189F2490000EB8E2 /* CFFoundationVersionNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFFoundationVersionNumber.m; sourceTree = "<group>"; };
 		1D07D2C0189F2490000EB8E2 /* CFStringConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFStringConstants.h; sourceTree = "<group>"; };
 		1D07D2C1189F2490000EB8E2 /* CFStringConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFStringConstants.m; sourceTree = "<group>"; };
-		1D07D2CE189F25A6000EB8E2 /* CFUIButtonBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFUIButtonBorder.h; sourceTree = "<group>"; };
-		1D07D2CF189F25A6000EB8E2 /* CFUIButtonBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFUIButtonBorder.m; sourceTree = "<group>"; };
 		1D0AF8FE189B4CDC00F68928 /* Catfish-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Catfish-Prefix.pch"; sourceTree = "<group>"; };
 		1D0AF922189B4CDC00F68928 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1D0AF924189B4CDC00F68928 /* Catfish-Walppaper-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Catfish-Walppaper-5.png"; sourceTree = "<group>"; };
 		1D0AF925189B4CDC00F68928 /* Support.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Support.bundle; sourceTree = "<group>"; };
+		1D2C907A18A3042E002CB358 /* CFUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFUIButton.h; sourceTree = "<group>"; };
+		1D2C907B18A3042E002CB358 /* CFUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFUIButton.m; sourceTree = "<group>"; };
 		968D03187068443CA12CDAD3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		987B91719BCB4C0EACD6A901 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -255,8 +255,8 @@
 		1D07D2BD189F2490000EB8E2 /* Button */ = {
 			isa = PBXGroup;
 			children = (
-				1D07D2CE189F25A6000EB8E2 /* CFUIButtonBorder.h */,
-				1D07D2CF189F25A6000EB8E2 /* CFUIButtonBorder.m */,
+				1D2C907A18A3042E002CB358 /* CFUIButton.h */,
+				1D2C907B18A3042E002CB358 /* CFUIButton.m */,
 			);
 			path = Button;
 			sourceTree = "<group>";
@@ -422,8 +422,8 @@
 			files = (
 				1D07D2C9189F2490000EB8E2 /* UIImage+CFColor.m in Sources */,
 				1D07D2C8189F2490000EB8E2 /* UIAlertView+CFUtility.m in Sources */,
+				1D2C907C18A3042E002CB358 /* CFUIButton.m in Sources */,
 				1D07D2C3189F2490000EB8E2 /* NSException+CFThrowable.m in Sources */,
-				1D07D2D0189F25A6000EB8E2 /* CFUIButtonBorder.m in Sources */,
 				1D07D2CC189F2490000EB8E2 /* CFFoundationVersionNumber.m in Sources */,
 				1D07D2C6189F2490000EB8E2 /* NSString+CFLocalized.m in Sources */,
 				1D07D2CA189F2490000EB8E2 /* CFMailMessageCompose.m in Sources */,

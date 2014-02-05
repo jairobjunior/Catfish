@@ -6,10 +6,10 @@
 //  Copyright (c) 2013 SookApps. All rights reserved.
 //
 
-#import "CFUIButtonBorder.h"
+#import "CFUIButton.h"
 #import "UIImage+CFColor.h"
 
-@implementation CFUIButtonBorder
+@implementation CFUIButton
 
 static UIColor *borderColor;
 static UIColor *backgroundColorForHighlightedState;
@@ -43,7 +43,7 @@ static UIColor *backgroundColorForHighlightedState;
     }
     
     if (!backgroundColorForHighlightedState) {
-        backgroundColorForHighlightedState = kCFUIButtonBorderColor;
+        backgroundColorForHighlightedState = kCFUIButtonBackgroundColorForHighlightedState;
     }
     
     [self setupButton];
@@ -52,6 +52,7 @@ static UIColor *backgroundColorForHighlightedState;
 - (void)setupButton
 {
     [self setBorderColor:borderColor];
+    [self setBorderWidth:1.5f];
     [self setBackgroundColorForHighlightedState:backgroundColorForHighlightedState];
 }
 
@@ -63,7 +64,22 @@ static UIColor *backgroundColorForHighlightedState;
 - (void)setBorderColor:(UIColor*)color
 {
     self.layer.borderColor = color.CGColor;
-    self.layer.borderWidth = 1.8;
+}
+
+- (void)removeBorder
+{
+    self.layer.borderWidth = 0.0;
+}
+
+- (void)setBorderWidth:(CGFloat)borderWidth
+{
+    self.layer.borderWidth = borderWidth;
+}
+
+- (void)setCornerRadius:(CGFloat)cornerRadius
+{
+    self.layer.cornerRadius = cornerRadius;
+    self.layer.masksToBounds = YES;
 }
 
 + (void)setBackgroundColorForHighlightedState:(UIColor*)color

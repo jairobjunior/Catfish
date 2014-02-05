@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Catfish"
-  s.version      = "0.1.1-beta"
+  s.version      = "0.1.2-beta"
   s.summary      = "Catfish is a collection of libraries and categories useful for iOS developers, making developing mobile apps easier."
 
   s.description  = <<-DESC

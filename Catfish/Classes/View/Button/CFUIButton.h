@@ -9,14 +9,18 @@
 #import <UIKit/UIKit.h>
 
 #define kCFUIButtonBorderColor [UIColor blackColor]
-#define kCFUIButtonBGColor [UIColor colorWithWhite:1.0 alpha:0.25]
+#define kCFUIButtonBackgroundColorForHighlightedState [UIColor colorWithWhite:1.0 alpha:0.4]
 
-@interface CFUIButtonBorder : UIButton
+@interface CFUIButton : UIButton
 
 - (id)initWithFrame:(CGRect)frame title:(NSString*)title;
 
 + (void)setBorderColor:(UIColor*)color;
 - (void)setBorderColor:(UIColor*)color;
+
+- (void)removeBorder;
+- (void)setBorderWidth:(CGFloat)borderWidth;
+- (void)setCornerRadius:(CGFloat)cornerRadius;
 
 + (void) setBackgroundColorForHighlightedState:(UIColor*)color;
 - (void) setBackgroundColorForHighlightedState:(UIColor*)color;
