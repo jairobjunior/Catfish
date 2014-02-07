@@ -1,6 +1,5 @@
 //
-//  SYUIButtonBorder.h
-//  Sycuan
+//  SYUIButton.h
 //
 //  Created by Jairo Junior on 11/15/13.
 //  Copyright (c) 2013 SookApps. All rights reserved.

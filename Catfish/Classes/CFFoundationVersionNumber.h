@@ -1,6 +1,5 @@
 //
 //  FoundationVersionNumber.h
-//  Airwave
 //
 //  Created by Jairo Junior on 10/7/13.
 //  Copyright (c) 2013 Sook Apps. All rights reserved.

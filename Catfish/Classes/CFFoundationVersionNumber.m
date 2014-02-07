@@ -1,6 +1,5 @@
 //
 //  FoundationVersionNumber.m
-//  Airwave
 //
 //  Created by Jairo Junior on 10/7/13.
 //  Copyright (c) 2013 Oakley. All rights reserved.
