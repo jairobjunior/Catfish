@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Catfish"
-  s.version      = "0.1.2-beta"
+  s.version      = "0.1.3-beta"
   s.summary      = "Catfish is a collection of libraries and categories useful for iOS developers, making developing mobile apps easier."
 
   s.description  = <<-DESC
@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
 
   s.ios.deployment_target = '6.0'
-  s.osx.deployment_target = '10.6'
 
   s.frameworks  = 'QuartzCore', 'UIKit', 'MessageUI'
   
