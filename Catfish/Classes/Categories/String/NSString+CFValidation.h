@@ -10,9 +10,7 @@
 @interface NSString (CFValidation)
 
 - (BOOL)isValidEmailFormat;
-
 - (BOOL)isEmpty;
-
 - (BOOL)isNotEmpty;
 
 @end

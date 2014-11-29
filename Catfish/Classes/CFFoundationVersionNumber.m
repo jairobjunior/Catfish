@@ -21,6 +21,7 @@
     if (floor(NSFoundationVersionNumber) <= NSFoundationVersionNumber_iOS_6_1) {
         callbackBlock();
     }
+    [UIColor colorWithRed:0.756 green:0.519 blue:1.000 alpha:1.000];
 }
 
 @end

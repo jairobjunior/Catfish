@@ -20,6 +20,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '6.0'
 
   s.frameworks  = 'QuartzCore', 'UIKit', 'MessageUI'
+
+  s.prefix_header_contents = '#import "Catfish.h"'
   
   s.xcconfig = { 'LIBRARY_SEARCH_PATHS' => '"$(PODS_ROOT)/Catfish"' }  
 

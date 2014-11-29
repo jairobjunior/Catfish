@@ -23,6 +23,13 @@
 		1D07D2CC189F2490000EB8E2 /* CFFoundationVersionNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2BF189F2490000EB8E2 /* CFFoundationVersionNumber.m */; };
 		1D07D2CD189F2490000EB8E2 /* CFStringConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2C1189F2490000EB8E2 /* CFStringConstants.m */; };
 		1D2C907C18A3042E002CB358 /* CFUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C907B18A3042E002CB358 /* CFUIButton.m */; };
+		1DEB34DD1A2920E20092DA7A /* AUISelectiveBordersLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB34D81A2920E20092DA7A /* AUISelectiveBordersLayer.m */; };
+		1DEB34DE1A2920E20092DA7A /* AUISelectiveBordersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB34DA1A2920E20092DA7A /* AUISelectiveBordersView.m */; };
+		1DEB34DF1A2920E20092DA7A /* UIView+AUISelectiveBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB34DC1A2920E20092DA7A /* UIView+AUISelectiveBorder.m */; };
+		1DEB34E81A2925AA0092DA7A /* UIViewController+CFNavigationItemButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB34E71A2925AA0092DA7A /* UIViewController+CFNavigationItemButton.m */; };
+		1DEB34EB1A2925F80092DA7A /* UIViewController+CFPresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB34EA1A2925F80092DA7A /* UIViewController+CFPresentViewController.m */; };
+		1DEB34F21A295BDD0092DA7A /* UIView+CFRoundify.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB34F11A295BDD0092DA7A /* UIView+CFRoundify.m */; };
+		1DEB34F81A299C320092DA7A /* NSObject+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB34F71A299C320092DA7A /* NSObject+Blocks.m */; };
 		624590C67FC84C16B4226837 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 968D03187068443CA12CDAD3 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +91,21 @@
 		1D0AF925189B4CDC00F68928 /* Support.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Support.bundle; sourceTree = "<group>"; };
 		1D2C907A18A3042E002CB358 /* CFUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFUIButton.h; sourceTree = "<group>"; };
 		1D2C907B18A3042E002CB358 /* CFUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFUIButton.m; sourceTree = "<group>"; };
+		1DEB34D71A2920E20092DA7A /* AUISelectiveBordersLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUISelectiveBordersLayer.h; sourceTree = "<group>"; };
+		1DEB34D81A2920E20092DA7A /* AUISelectiveBordersLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUISelectiveBordersLayer.m; sourceTree = "<group>"; };
+		1DEB34D91A2920E20092DA7A /* AUISelectiveBordersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUISelectiveBordersView.h; sourceTree = "<group>"; };
+		1DEB34DA1A2920E20092DA7A /* AUISelectiveBordersView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUISelectiveBordersView.m; sourceTree = "<group>"; };
+		1DEB34DB1A2920E20092DA7A /* UIView+AUISelectiveBorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AUISelectiveBorder.h"; sourceTree = "<group>"; };
+		1DEB34DC1A2920E20092DA7A /* UIView+AUISelectiveBorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AUISelectiveBorder.m"; sourceTree = "<group>"; };
+		1DEB34E61A2925AA0092DA7A /* UIViewController+CFNavigationItemButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CFNavigationItemButton.h"; sourceTree = "<group>"; };
+		1DEB34E71A2925AA0092DA7A /* UIViewController+CFNavigationItemButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CFNavigationItemButton.m"; sourceTree = "<group>"; };
+		1DEB34E91A2925F80092DA7A /* UIViewController+CFPresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CFPresentViewController.h"; sourceTree = "<group>"; };
+		1DEB34EA1A2925F80092DA7A /* UIViewController+CFPresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CFPresentViewController.m"; sourceTree = "<group>"; };
+		1DEB34EC1A2927160092DA7A /* Catfish.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Catfish.h; sourceTree = "<group>"; };
+		1DEB34F01A295BDD0092DA7A /* UIView+CFRoundify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CFRoundify.h"; sourceTree = "<group>"; };
+		1DEB34F11A295BDD0092DA7A /* UIView+CFRoundify.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CFRoundify.m"; sourceTree = "<group>"; };
+		1DEB34F61A299C320092DA7A /* NSObject+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Blocks.h"; sourceTree = "<group>"; };
+		1DEB34F71A299C320092DA7A /* NSObject+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Blocks.m"; sourceTree = "<group>"; };
 		968D03187068443CA12CDAD3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		987B91719BCB4C0EACD6A901 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -160,8 +182,10 @@
 				1D07D2A0189F2490000EB8E2 /* Date */,
 				1D07D2A3189F2490000EB8E2 /* Exception */,
 				1D07D2A6189F2490000EB8E2 /* Number */,
+				1DEB34F51A299C320092DA7A /* Object */,
 				1D07D2A7189F2490000EB8E2 /* String */,
 				1D07D2B0189F2490000EB8E2 /* View */,
+				1DEB34E41A2925920092DA7A /* ViewController */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -211,6 +235,8 @@
 			children = (
 				1D07D2B1189F2490000EB8E2 /* Alert */,
 				1D07D2B4189F2490000EB8E2 /* Image */,
+				1DEB34F01A295BDD0092DA7A /* UIView+CFRoundify.h */,
+				1DEB34F11A295BDD0092DA7A /* UIView+CFRoundify.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -281,6 +307,8 @@
 				1D07D2BF189F2490000EB8E2 /* CFFoundationVersionNumber.m */,
 				1D07D2C0189F2490000EB8E2 /* CFStringConstants.h */,
 				1D07D2C1189F2490000EB8E2 /* CFStringConstants.m */,
+				1DEB34EC1A2927160092DA7A /* Catfish.h */,
+				1DEB34D51A2920E20092DA7A /* Vendors */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -301,6 +329,55 @@
 				1D0AF8FE189B4CDC00F68928 /* Catfish-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1DEB34D51A2920E20092DA7A /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				1DEB34D61A2920E20092DA7A /* AUISelectiveBordersView */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		1DEB34D61A2920E20092DA7A /* AUISelectiveBordersView */ = {
+			isa = PBXGroup;
+			children = (
+				1DEB34D71A2920E20092DA7A /* AUISelectiveBordersLayer.h */,
+				1DEB34D81A2920E20092DA7A /* AUISelectiveBordersLayer.m */,
+				1DEB34D91A2920E20092DA7A /* AUISelectiveBordersView.h */,
+				1DEB34DA1A2920E20092DA7A /* AUISelectiveBordersView.m */,
+				1DEB34DB1A2920E20092DA7A /* UIView+AUISelectiveBorder.h */,
+				1DEB34DC1A2920E20092DA7A /* UIView+AUISelectiveBorder.m */,
+			);
+			path = AUISelectiveBordersView;
+			sourceTree = "<group>";
+		};
+		1DEB34E41A2925920092DA7A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1DEB34E51A2925AA0092DA7A /* Navigation */,
+				1DEB34E91A2925F80092DA7A /* UIViewController+CFPresentViewController.h */,
+				1DEB34EA1A2925F80092DA7A /* UIViewController+CFPresentViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1DEB34E51A2925AA0092DA7A /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				1DEB34E61A2925AA0092DA7A /* UIViewController+CFNavigationItemButton.h */,
+				1DEB34E71A2925AA0092DA7A /* UIViewController+CFNavigationItemButton.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		1DEB34F51A299C320092DA7A /* Object */ = {
+			isa = PBXGroup;
+			children = (
+				1DEB34F61A299C320092DA7A /* NSObject+Blocks.h */,
+				1DEB34F71A299C320092DA7A /* NSObject+Blocks.m */,
+			);
+			path = Object;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -421,18 +498,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D07D2C9189F2490000EB8E2 /* UIImage+CFColor.m in Sources */,
+				1DEB34F81A299C320092DA7A /* NSObject+Blocks.m in Sources */,
 				1D07D2C8189F2490000EB8E2 /* UIAlertView+CFUtility.m in Sources */,
 				1D2C907C18A3042E002CB358 /* CFUIButton.m in Sources */,
 				1D07D2C3189F2490000EB8E2 /* NSException+CFThrowable.m in Sources */,
 				1D07D2CC189F2490000EB8E2 /* CFFoundationVersionNumber.m in Sources */,
 				1D07D2C6189F2490000EB8E2 /* NSString+CFLocalized.m in Sources */,
+				1DEB34E81A2925AA0092DA7A /* UIViewController+CFNavigationItemButton.m in Sources */,
 				1D07D2CA189F2490000EB8E2 /* CFMailMessageCompose.m in Sources */,
 				1D07D2CB189F2490000EB8E2 /* CFSMSMessageCompose.m in Sources */,
 				1D07D2CD189F2490000EB8E2 /* CFStringConstants.m in Sources */,
 				1D07D2C2189F2490000EB8E2 /* NSDate+CFFormattedStrings.m in Sources */,
+				1DEB34DD1A2920E20092DA7A /* AUISelectiveBordersLayer.m in Sources */,
+				1DEB34DF1A2920E20092DA7A /* UIView+AUISelectiveBorder.m in Sources */,
+				1DEB34EB1A2925F80092DA7A /* UIViewController+CFPresentViewController.m in Sources */,
+				1DEB34DE1A2920E20092DA7A /* AUISelectiveBordersView.m in Sources */,
 				1D07D2C7189F2490000EB8E2 /* NSString+CFValidation.m in Sources */,
 				1D07D2C4189F2490000EB8E2 /* NSString+CFDateComparable.m in Sources */,
 				1D07D2C5189F2490000EB8E2 /* NSString+CFFormatted.m in Sources */,
+				1DEB34F21A295BDD0092DA7A /* UIView+CFRoundify.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

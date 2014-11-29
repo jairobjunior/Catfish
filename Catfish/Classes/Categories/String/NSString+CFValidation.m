@@ -9,7 +9,6 @@
 
 @implementation NSString (CFValidation)
 
-
 - (BOOL)isValidEmailFormat
 {
     /* Checks for minimum of "x@y.z"

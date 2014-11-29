@@ -5,9 +5,7 @@
 // 
 //
 
-
 @interface UIAlertView (CFUtility)
-
 
 /**
   * Uses [error localizedFailureReason] as UIAlertView title and [error localizedDescription] as its message.
