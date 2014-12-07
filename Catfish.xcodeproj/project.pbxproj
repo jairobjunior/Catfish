@@ -10,6 +10,7 @@
 		1D0621D71831642A002350B5 /* libCatfish.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D0621BF1831642A002350B5 /* libCatfish.a */; };
 		1D0621DD1831642A002350B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1D0621DB1831642A002350B5 /* InfoPlist.strings */; };
 		1D0621DF1831642A002350B5 /* CatfishTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0621DE1831642A002350B5 /* CatfishTests.m */; };
+		1D07CB4B1A3172B600A3DF07 /* UIImage+CFResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07CB4A1A3172B600A3DF07 /* UIImage+CFResize.m */; };
 		1D07D2C2189F2490000EB8E2 /* NSDate+CFFormattedStrings.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2A2189F2490000EB8E2 /* NSDate+CFFormattedStrings.m */; };
 		1D07D2C3189F2490000EB8E2 /* NSException+CFThrowable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2A5189F2490000EB8E2 /* NSException+CFThrowable.m */; };
 		1D07D2C4189F2490000EB8E2 /* NSString+CFDateComparable.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2A9189F2490000EB8E2 /* NSString+CFDateComparable.m */; };
@@ -61,6 +62,8 @@
 		1D0621DA1831642A002350B5 /* CatfishTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CatfishTests-Info.plist"; sourceTree = "<group>"; };
 		1D0621DC1831642A002350B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1D0621DE1831642A002350B5 /* CatfishTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CatfishTests.m; sourceTree = "<group>"; };
+		1D07CB491A3172B600A3DF07 /* UIImage+CFResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CFResize.h"; sourceTree = "<group>"; };
+		1D07CB4A1A3172B600A3DF07 /* UIImage+CFResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CFResize.m"; sourceTree = "<group>"; };
 		1D07D2A1189F2490000EB8E2 /* NSDate+CFFormattedStrings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+CFFormattedStrings.h"; sourceTree = "<group>"; };
 		1D07D2A2189F2490000EB8E2 /* NSDate+CFFormattedStrings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+CFFormattedStrings.m"; sourceTree = "<group>"; };
 		1D07D2A4189F2490000EB8E2 /* NSException+CFThrowable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSException+CFThrowable.h"; sourceTree = "<group>"; };
@@ -255,6 +258,8 @@
 			children = (
 				1D07D2B5189F2490000EB8E2 /* UIImage+CFColor.h */,
 				1D07D2B6189F2490000EB8E2 /* UIImage+CFColor.m */,
+				1D07CB491A3172B600A3DF07 /* UIImage+CFResize.h */,
+				1D07CB4A1A3172B600A3DF07 /* UIImage+CFResize.m */,
 			);
 			path = Image;
 			sourceTree = "<group>";
@@ -515,6 +520,7 @@
 				1DEB34DE1A2920E20092DA7A /* AUISelectiveBordersView.m in Sources */,
 				1D07D2C7189F2490000EB8E2 /* NSString+CFValidation.m in Sources */,
 				1D07D2C4189F2490000EB8E2 /* NSString+CFDateComparable.m in Sources */,
+				1D07CB4B1A3172B600A3DF07 /* UIImage+CFResize.m in Sources */,
 				1D07D2C5189F2490000EB8E2 /* NSString+CFFormatted.m in Sources */,
 				1DEB34F21A295BDD0092DA7A /* UIView+CFRoundify.m in Sources */,
 			);

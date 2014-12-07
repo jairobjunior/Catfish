@@ -47,6 +47,17 @@
     return [prefixDateFormatter stringFromDate:self];
 }
 
+//Dec 2, 2014
+- (NSString *)dateWithNamesMonthMediumStyle
+{
+    NSDateFormatter *prefixDateFormatter = [[NSDateFormatter alloc] init];
+    [prefixDateFormatter setFormatterBehavior:NSDateFormatterBehavior10_4];
+    [prefixDateFormatter setDateFormat:@"MMMM d, yyyy"];//Dec 2, 2014
+    [prefixDateFormatter setDateStyle:NSDateFormatterMediumStyle];
+    
+    return [prefixDateFormatter stringFromDate:self];
+}
+
 //12:01 PM
 - (NSString *)hourWithMinutes
 {
