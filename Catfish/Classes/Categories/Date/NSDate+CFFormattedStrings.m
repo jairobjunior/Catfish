@@ -11,6 +11,15 @@
 
 @implementation NSDate (CFFormattedStrings)
 
+//2014-12-08 16:00:00
+- (NSString *)dateToStringWithoutTimeZone
+{
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    [dateFormatter setTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0]];
+    [dateFormatter setDateFormat: @"yyyy-MM-dd HH:mm:ss"];
+    return [dateFormatter stringFromDate:self];
+}
+
 //June 13th, 2013
 - (NSString *)dateWithDaySuffix
 {    
