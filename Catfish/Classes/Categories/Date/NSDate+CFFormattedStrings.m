@@ -11,12 +11,12 @@
 
 @implementation NSDate (CFFormattedStrings)
 
-//2014-12-08 16:00:00
-- (NSString *)dateToStringWithoutTimeZone
+//2014-12-08T16:00:00+0000
+- (NSString *)dateToStringISO860
 {
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
-    [dateFormatter setTimeZone:[NSTimeZone timeZoneForSecondsFromGMT:0]];
-    [dateFormatter setDateFormat: @"yyyy-MM-dd HH:mm:ss"];
+    dateFormatter.timeZone = [NSTimeZone timeZoneWithName:@"UTC"];
+    [dateFormatter setDateFormat: @"yyyy-MM-dd'T'HH:mm:ssZ"];
     return [dateFormatter stringFromDate:self];
 }
 

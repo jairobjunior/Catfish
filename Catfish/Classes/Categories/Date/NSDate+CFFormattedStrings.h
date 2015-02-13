@@ -10,7 +10,7 @@
 @interface NSDate (CFFormattedStrings)
 
 
-- (NSString *)dateToStringWithoutTimeZone;
+- (NSString *)dateToStringISO860;
 
 /**
  * This method uses the pattern MMMM ., yyyy

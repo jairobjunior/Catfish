@@ -23,6 +23,7 @@
 		1D07D2CB189F2490000EB8E2 /* CFSMSMessageCompose.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2BB189F2490000EB8E2 /* CFSMSMessageCompose.m */; };
 		1D07D2CC189F2490000EB8E2 /* CFFoundationVersionNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2BF189F2490000EB8E2 /* CFFoundationVersionNumber.m */; };
 		1D07D2CD189F2490000EB8E2 /* CFStringConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2C1189F2490000EB8E2 /* CFStringConstants.m */; };
+		1D1E85021A8DF22E0076F57E /* CFSoundHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E85011A8DF22E0076F57E /* CFSoundHelper.m */; };
 		1D2C907C18A3042E002CB358 /* CFUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C907B18A3042E002CB358 /* CFUIButton.m */; };
 		1DEB34DD1A2920E20092DA7A /* AUISelectiveBordersLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB34D81A2920E20092DA7A /* AUISelectiveBordersLayer.m */; };
 		1DEB34DE1A2920E20092DA7A /* AUISelectiveBordersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB34DA1A2920E20092DA7A /* AUISelectiveBordersView.m */; };
@@ -92,6 +93,8 @@
 		1D0AF922189B4CDC00F68928 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1D0AF924189B4CDC00F68928 /* Catfish-Walppaper-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Catfish-Walppaper-5.png"; sourceTree = "<group>"; };
 		1D0AF925189B4CDC00F68928 /* Support.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Support.bundle; sourceTree = "<group>"; };
+		1D1E85001A8DF22E0076F57E /* CFSoundHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFSoundHelper.h; sourceTree = "<group>"; };
+		1D1E85011A8DF22E0076F57E /* CFSoundHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSoundHelper.m; sourceTree = "<group>"; };
 		1D2C907A18A3042E002CB358 /* CFUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFUIButton.h; sourceTree = "<group>"; };
 		1D2C907B18A3042E002CB358 /* CFUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFUIButton.m; sourceTree = "<group>"; };
 		1DEB34D71A2920E20092DA7A /* AUISelectiveBordersLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUISelectiveBordersLayer.h; sourceTree = "<group>"; };
@@ -306,6 +309,7 @@
 			isa = PBXGroup;
 			children = (
 				1D07D29F189F2490000EB8E2 /* Categories */,
+				1D1E84FE1A8DF22E0076F57E /* Helpers */,
 				1D07D2B7189F2490000EB8E2 /* Picker */,
 				1D07D2BC189F2490000EB8E2 /* View */,
 				1D07D2BE189F2490000EB8E2 /* CFFoundationVersionNumber.h */,
@@ -334,6 +338,23 @@
 				1D0AF8FE189B4CDC00F68928 /* Catfish-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D1E84FE1A8DF22E0076F57E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1D1E84FF1A8DF22E0076F57E /* Sound */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		1D1E84FF1A8DF22E0076F57E /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				1D1E85001A8DF22E0076F57E /* CFSoundHelper.h */,
+				1D1E85011A8DF22E0076F57E /* CFSoundHelper.m */,
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 		1DEB34D51A2920E20092DA7A /* Vendors */ = {
@@ -510,6 +531,7 @@
 				1D07D2CC189F2490000EB8E2 /* CFFoundationVersionNumber.m in Sources */,
 				1D07D2C6189F2490000EB8E2 /* NSString+CFLocalized.m in Sources */,
 				1DEB34E81A2925AA0092DA7A /* UIViewController+CFNavigationItemButton.m in Sources */,
+				1D1E85021A8DF22E0076F57E /* CFSoundHelper.m in Sources */,
 				1D07D2CA189F2490000EB8E2 /* CFMailMessageCompose.m in Sources */,
 				1D07D2CB189F2490000EB8E2 /* CFSMSMessageCompose.m in Sources */,
 				1D07D2CD189F2490000EB8E2 /* CFStringConstants.m in Sources */,
