@@ -25,6 +25,7 @@
 		1D07D2CD189F2490000EB8E2 /* CFStringConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D07D2C1189F2490000EB8E2 /* CFStringConstants.m */; };
 		1D1E85021A8DF22E0076F57E /* CFSoundHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D1E85011A8DF22E0076F57E /* CFSoundHelper.m */; };
 		1D2C907C18A3042E002CB358 /* CFUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2C907B18A3042E002CB358 /* CFUIButton.m */; };
+		1D48EC701A917D4A002B286B /* UIPageViewController+CFScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D48EC6F1A917D4A002B286B /* UIPageViewController+CFScrollView.m */; };
 		1DEB34DD1A2920E20092DA7A /* AUISelectiveBordersLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB34D81A2920E20092DA7A /* AUISelectiveBordersLayer.m */; };
 		1DEB34DE1A2920E20092DA7A /* AUISelectiveBordersView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB34DA1A2920E20092DA7A /* AUISelectiveBordersView.m */; };
 		1DEB34DF1A2920E20092DA7A /* UIView+AUISelectiveBorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DEB34DC1A2920E20092DA7A /* UIView+AUISelectiveBorder.m */; };
@@ -97,6 +98,8 @@
 		1D1E85011A8DF22E0076F57E /* CFSoundHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFSoundHelper.m; sourceTree = "<group>"; };
 		1D2C907A18A3042E002CB358 /* CFUIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFUIButton.h; sourceTree = "<group>"; };
 		1D2C907B18A3042E002CB358 /* CFUIButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CFUIButton.m; sourceTree = "<group>"; };
+		1D48EC6E1A917D4A002B286B /* UIPageViewController+CFScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPageViewController+CFScrollView.h"; sourceTree = "<group>"; };
+		1D48EC6F1A917D4A002B286B /* UIPageViewController+CFScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPageViewController+CFScrollView.m"; sourceTree = "<group>"; };
 		1DEB34D71A2920E20092DA7A /* AUISelectiveBordersLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUISelectiveBordersLayer.h; sourceTree = "<group>"; };
 		1DEB34D81A2920E20092DA7A /* AUISelectiveBordersLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AUISelectiveBordersLayer.m; sourceTree = "<group>"; };
 		1DEB34D91A2920E20092DA7A /* AUISelectiveBordersView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AUISelectiveBordersView.h; sourceTree = "<group>"; };
@@ -357,6 +360,15 @@
 			path = Sound;
 			sourceTree = "<group>";
 		};
+		1D48EC6A1A917C6D002B286B /* PageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1D48EC6E1A917D4A002B286B /* UIPageViewController+CFScrollView.h */,
+				1D48EC6F1A917D4A002B286B /* UIPageViewController+CFScrollView.m */,
+			);
+			path = PageViewController;
+			sourceTree = "<group>";
+		};
 		1DEB34D51A2920E20092DA7A /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
@@ -382,6 +394,7 @@
 			isa = PBXGroup;
 			children = (
 				1DEB34E51A2925AA0092DA7A /* Navigation */,
+				1D48EC6A1A917C6D002B286B /* PageViewController */,
 				1DEB34E91A2925F80092DA7A /* UIViewController+CFPresentViewController.h */,
 				1DEB34EA1A2925F80092DA7A /* UIViewController+CFPresentViewController.m */,
 			);
@@ -538,6 +551,7 @@
 				1D07D2C2189F2490000EB8E2 /* NSDate+CFFormattedStrings.m in Sources */,
 				1DEB34DD1A2920E20092DA7A /* AUISelectiveBordersLayer.m in Sources */,
 				1DEB34DF1A2920E20092DA7A /* UIView+AUISelectiveBorder.m in Sources */,
+				1D48EC701A917D4A002B286B /* UIPageViewController+CFScrollView.m in Sources */,
 				1DEB34EB1A2925F80092DA7A /* UIViewController+CFPresentViewController.m in Sources */,
 				1DEB34DE1A2920E20092DA7A /* AUISelectiveBordersView.m in Sources */,
 				1D07D2C7189F2490000EB8E2 /* NSString+CFValidation.m in Sources */,

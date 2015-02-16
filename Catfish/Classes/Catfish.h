@@ -26,5 +26,8 @@
 #import "UIViewController+CFNavigationItemButton.h"
 #import "UIViewController+CFPresentViewController.h"
 
+// Categories/ViewController/PageViewController
+#import "UIPageViewController+CFScrollView.h"
+
 // Helpers
 #import "CFSoundHelper.h"
